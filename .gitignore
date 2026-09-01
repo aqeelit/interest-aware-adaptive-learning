@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Raw and processed research data — never publish real student-level records.
+# OULAD and ASSISTments are CC-BY 4.0 (permissive), but this repo publishes only
+# code and aggregated/summary results, never the underlying per-student data.
+# See data/README.md for how to obtain and place these files locally.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Claude Code's own local working state — not part of the research project.
+.claude/
+
+# Contains ASSISTments' real, pseudonymous-but-individual user_id per row (one
+# row per student). Not published — see
+# results/statistical_tests/assistments_person_ability_deidentified.csv (with
+# user_id replaced by a sequential anonymous ID) for the published equivalent.
+# The pipeline regenerates the real file locally when you run it yourself.
+results/statistical_tests/assistments_person_ability.csv

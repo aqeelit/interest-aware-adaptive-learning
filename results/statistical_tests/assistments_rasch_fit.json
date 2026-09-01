@@ -1,0 +1,10 @@
+{
+  "n_items": 2137,
+  "n_persons": 1707,
+  "difficulty_mean": 0.29578002743084025,
+  "difficulty_sd": 1.2175072629092036,
+  "ability_mean": -0.012318167081797858,
+  "ability_sd": 0.8114376060522475,
+  "bootstrap_iterations": 100,
+  "difficulty_se_mean": 0.2594905447136231
+}

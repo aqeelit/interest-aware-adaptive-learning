@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  research-app:
+    build: .
+    volumes:
+      - ../data:/workspace/data
+      - ../results:/workspace/results
+    command: ["src/run_pipeline.py"]

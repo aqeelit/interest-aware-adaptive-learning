@@ -1,0 +1,46 @@
+{
+  "merge_info": {
+    "n_studentInfo_rows": 32593,
+    "n_oulad_features_D_interest_rows": 29228,
+    "n_merged_rows": 29228,
+    "n_merged_rows_missing_imd_band": 1054
+  },
+  "entropy_vs_imd_band": {
+    "test": "Spearman rank correlation",
+    "variable": "resource_diversity_entropy",
+    "against": "imd_band (ordinal, 1=most deprived .. 10=least deprived)",
+    "n": 28174,
+    "rho": 0.02975242564542498,
+    "p_value": 5.887779601745598e-07
+  },
+  "entropy_vs_disability": {
+    "test": "Mann-Whitney U",
+    "variable": "resource_diversity_entropy",
+    "against": "disability (Y vs N)",
+    "n_disability_Y": 2818,
+    "n_disability_N": 26410,
+    "median_disability_Y": 1.504810378783604,
+    "median_disability_N": 1.5066409727909864,
+    "statistic": 37408547.0,
+    "p_value": 0.643824145338768
+  },
+  "click_share_forumng_vs_imd_band": {
+    "test": "Spearman rank correlation",
+    "variable": "click_share_forumng",
+    "against": "imd_band (ordinal, 1=most deprived .. 10=least deprived)",
+    "n": 28174,
+    "rho": 0.02561170071253814,
+    "p_value": 1.7120918422683278e-05
+  },
+  "click_share_forumng_vs_disability": {
+    "test": "Mann-Whitney U",
+    "variable": "click_share_forumng",
+    "against": "disability (Y vs N)",
+    "n_disability_Y": 2818,
+    "n_disability_N": 26410,
+    "median_disability_Y": 0.1282165091448663,
+    "median_disability_N": 0.125,
+    "statistic": 37048943.0,
+    "p_value": 0.7020903589674367
+  }
+}
