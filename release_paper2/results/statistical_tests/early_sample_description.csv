@@ -1,0 +1,7 @@
+# Interest centering: within each code_module+code_presentation, subtract the mean over that presentation's students in the analysed sample (features only, no labels; includes test-fold rows).
+# ASSUMPTION: assessment scores are treated as observable at date_submitted; OULAD has no grade-release time. (applies to withAssess settings)
+# ASSUMPTION (pre-registered): risk-set students with no clicks by t get click_share = 0, entropy = 0 and zero behaviour counts; students with no scored submission by t are kept with n_assessments = 0, score_std = 0 and missing mean scores (median-imputed in LR, native NaN in GBM).
+# Truncation before aggregation: studentVle date <= t (negative days included), studentAssessment date_submitted <= t. Risk set excludes date_unregistration <= t. Target Pass/Distinction=1, Fail/Withdrawn=0.
+setting,cutoff_days,sens,n_studentinfo_rows,n_excluded_unregistered_by_t,n_excluded_unregistered_by_t_final_withdrawn,n_sample_before_features,n_no_scored_submission_by_t,n_no_clicks_by_t,n_dropped_by_feature_inner_join,n_rows_used,pass_rate,n_courses
+EARLY,28,False,32593,5055,5047,27538,7136,921,0,27538,0.558682547752197,22
+EARLY,56,False,32593,6071,6063,26522,3277,603,0,26522,0.5800844581856572,22

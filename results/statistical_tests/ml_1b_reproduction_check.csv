@@ -1,0 +1,11 @@
+# EXPLORATORY / POST HOC (prereg_ml_2026-10-14.md); hypothesis-generating only.
+# Arms rebuilt identically to earlier predictions (robustness E, ci1 E_course, early C_t*_course).
+setting,family,new_model,earlier_model,n_new,n_earlier,n_matched,y_pred_identical,max_abs_prob_diff
+FULL,LR,base,E,25770,25770,25770,25770,1.1102230246251565e-16
+FULL,GBM,base,E,25770,25770,25770,25770,1.1102230246251565e-16
+FULL,LR,base_course,E_course,25770,25770,25770,25770,1.1102230246251565e-16
+FULL,GBM,base_course,E_course,25770,25770,25770,25770,1.1102230246251565e-16
+EARLY_t28,LR,base_course,C_t28_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t28,GBM,base_course,C_t28_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t56,LR,base_course,C_t56_course,26522,26522,26522,26522,1.1102230246251565e-16
+EARLY_t56,GBM,base_course,C_t56_course,26522,26522,26522,26522,1.1102230246251565e-16

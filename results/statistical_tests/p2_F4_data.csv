@@ -1,0 +1,19 @@
+# EXPLORATORY / POST HOC (p2_prereg_2026-10-14.md); hypothesis-generating only.
+# Sources in column 'source'.
+setting,comparison,family,delta_acc,ci_low,ci_high,source
+EARLY_t28_VLEonly,base_course -> full21_ctr,LR,0.009150991357397,0.005385570707466,0.0127466416691619,leak_breadth_SUMMARY.csv
+EARLY_t28_VLEonly,base_course -> full21_ctr,GBM,0.0078073934200013,0.0036372600060373,0.011882192959511,leak_breadth_SUMMARY.csv
+EARLY_t28_withAssess,base_course -> full21_ctr,LR,0.0058464667005592,0.0024616605433652,0.0092923141169559,leak_breadth_SUMMARY.csv
+EARLY_t28_withAssess,base_course -> full21_ctr,GBM,0.0041397341854891,0.0009784851285493,0.0073425246088637,leak_breadth_SUMMARY.csv
+EARLY_t56_VLEonly,base_course -> full21_ctr,LR,0.0137621597164617,0.0097077780004424,0.0178102979309474,leak_breadth_SUMMARY.csv
+EARLY_t56_VLEonly,base_course -> full21_ctr,GBM,0.0165145916597541,0.0125182963984321,0.0206539542782856,leak_breadth_SUMMARY.csv
+EARLY_t56_withAssess,base_course -> full21_ctr,LR,0.0041097956413543,0.0013931442541297,0.0067031461012833,leak_breadth_SUMMARY.csv
+EARLY_t56_withAssess,base_course -> full21_ctr,GBM,-0.0001131136415051,-0.0031221936533497,0.0030237747086977,leak_breadth_SUMMARY.csv
+EARLY_t28_VLEonly,base_course_z -> + full21_ctr,LR,0.0107850969569321,0.0069834949252816,0.0144646189313877,p2_1_zbase_comparisons_bh.csv
+EARLY_t28_VLEonly,base_course_z -> + full21_ctr,GBM,0.0075168857578618,0.003708088425669,0.0112521569758298,p2_1_zbase_comparisons_bh.csv
+EARLY_t28_withAssess,base_course_z -> + full21_ctr,LR,0.0061732878204663,0.002980992239329,0.0093825090759708,p2_1_zbase_comparisons_bh.csv
+EARLY_t28_withAssess,base_course_z -> + full21_ctr,GBM,-0.0006899556975814,-0.0036619586380415,0.0022952718507109,p2_1_zbase_comparisons_bh.csv
+EARLY_t56_VLEonly,base_course_z -> + full21_ctr,LR,0.0162506598295754,0.0118599479075762,0.0200033396338625,p2_1_zbase_comparisons_bh.csv
+EARLY_t56_VLEonly,base_course_z -> + full21_ctr,GBM,0.0136113415277883,0.0098397896307307,0.0175366467991306,p2_1_zbase_comparisons_bh.csv
+EARLY_t56_withAssess,base_course_z -> + full21_ctr,LR,0.005052409320564,0.0022977140590053,0.0076577928392318,p2_1_zbase_comparisons_bh.csv
+EARLY_t56_withAssess,base_course_z -> + full21_ctr,GBM,0.0031671819621446,0.0007150329912695,0.0056861722843721,p2_1_zbase_comparisons_bh.csv

@@ -1,0 +1,3 @@
+# Source predictions: oulad_fold_predictions.csv (LR, stratified 5-fold, seed 42), keys reattached; OLD = oulad_pairwise_comparison(_corrected).csv (positional row_index alignment). OR = b_only_correct / a_only_correct. BH over all 28 pairs unless column says otherwise.
+family_size,OLD_n_significant_after_bh,NEW_n_significant_after_bh,OLD_nonsignificant_pairs,NEW_nonsignificant_pairs
+28,27,28,E-Esens,

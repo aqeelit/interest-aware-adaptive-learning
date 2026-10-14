@@ -1,0 +1,14 @@
+# Interest centering: within each code_module+code_presentation using only that presentation's own students (for the held-out course: only the held-out course's students), features only, no labels.
+# ASSUMPTION: assessment scores are treated as observable at date_submitted; OULAD has no grade-release time. (applies to withAssess settings)
+# ASSUMPTION (pre-registered): risk-set students with no clicks by t get click_share = 0, entropy = 0 and zero behaviour counts; students with no scored submission by t are kept with n_assessments = 0, score_std = 0 and missing mean scores (median-imputed in LR, native NaN in GBM).
+# Truncation before aggregation at t; risk set excludes date_unregistration <= t; target Pass/Distinction=1, Fail/Withdrawn=0.
+# Spearman over spearman_n course presentations.
+setting,family,n_courses,n_rows_total,n_positive_diff,n_zero_diff,n_negative_diff,mean_diff_unweighted,sd_diff_unweighted_ddof1,pooled_diff,spearman_rho_diff_vs_passrate,spearman_p,spearman_n
+EARLY_t28_VLEonly,LR,22,27538,16,0,6,0.02823378722024926,0.05085960072872994,0.025709928099353574,0.08300395256916997,0.7134458318122271,22
+EARLY_t28_VLEonly,GBM,22,27538,17,0,5,0.037617301723095777,0.0567189615645588,0.029413900791633307,-0.08074534161490683,0.7209375060406074,22
+EARLY_t28_withAssess,LR,22,27538,13,1,8,0.022664613204651424,0.05229510532222934,0.01739414627060787,0.08639186900056467,0.7022561610479262,22
+EARLY_t28_withAssess,GBM,22,27538,16,1,5,0.04086452851130372,0.08288722176626578,0.028905512382889076,0.3269339356295879,0.13751473828962535,22
+EARLY_t56_VLEonly,LR,22,26522,14,1,7,0.025759883565741392,0.05194200077065341,0.02590302390468291,0.04912478825522304,0.8281332040215275,22
+EARLY_t56_VLEonly,GBM,22,26522,16,0,6,0.04373291496736997,0.054249145605871414,0.038948797224945375,-0.21964991530208924,0.32601325111651913,22
+EARLY_t56_withAssess,LR,22,26522,13,1,8,0.012160500000023694,0.04345233358120076,0.011424477792021714,-0.07622811970638058,0.7359946162262683,22
+EARLY_t56_withAssess,GBM,22,26522,16,0,6,0.04861989488541232,0.08873552433769544,0.03340622879119215,0.3190287972896669,0.14785060434145583,22

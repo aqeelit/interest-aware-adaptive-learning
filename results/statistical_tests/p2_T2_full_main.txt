@@ -1,0 +1,13 @@
+T2. FULL setting, pooled out-of-fold metrics, stratified 5-fold
+Sources: robustness_stratcv_metrics_summary.csv, ci1_stratcv_metrics_summary.csv,
+robustness_dimctrl_metrics_summary.csv. Comparisons with CIs: p2_numbers.csv P03/P04.
+arm|model|LR_acc|LR_f1|LR_auc|GBM_acc|GBM_f1|GBM_auc|N
+E (base: B+C)|E|0.8562|0.8495|0.9225|0.8900|0.8832|0.9510|25770
+D (E + 21 interest)|D|0.8823|0.8763|0.9408|0.9166|0.9120|0.9684|25770
+course one-hot only|course_only|0.5991|0.4639|0.5895|0.5985|0.4684|0.5890|25770
+E_course|E_course|0.9067|0.9016|0.9608|0.9189|0.9145|0.9690|25770
+D_course|D_course|0.9069|0.9019|0.9616|0.9222|0.9179|0.9706|25770
+E_course + centered 21|E_course_ctr|0.9067|0.9017|0.9616|0.9208|0.9166|0.9705|25770
+E_course + shuffled centered 21|E_course_ctrshuf|0.9063|0.9012|0.9605|0.9184|0.9139|0.9682|25770
+E + shuffled 21 (within pres.)|E_shufint|0.8748|0.8687|0.9348|0.9120|0.9070|0.9649|25770
+E + 21 noise columns|E_noise21|0.8555|0.8488|0.9222|0.8867|0.8796|0.9484|25770

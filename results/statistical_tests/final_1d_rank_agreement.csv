@@ -1,0 +1,15 @@
+# EXPLORATORY / POST HOC (prereg_final_2026-10-14.md); hypothesis-generating only.
+# Spearman over 21 units; leave_one_out_dAUC is without - with; p-values unadjusted, descriptive.
+setting,cutoff_days,feature_family,family,measure_x,measure_y,n_units,spearman_rho,spearman_p_unadjusted_descriptive
+EARLY_t28,28,VLEonly,LR,add_one_in_dAUC,leave_one_out_dAUC,21,-0.7515427483089706,8.580195997794441e-05
+EARLY_t28,28,VLEonly,LR,add_one_in_dAUC,perm_importance_auc,21,0.7647823261858349,5.39694485959382e-05
+EARLY_t28,28,VLEonly,LR,leave_one_out_dAUC,perm_importance_auc,21,-0.7931146894427427,1.7977045184806964e-05
+EARLY_t28,28,VLEonly,GBM,add_one_in_dAUC,leave_one_out_dAUC,21,-0.5516569200779727,0.009528048096948669
+EARLY_t28,28,VLEonly,GBM,add_one_in_dAUC,perm_importance_auc,21,0.5256660168940871,0.014389989357650611
+EARLY_t28,28,VLEonly,GBM,leave_one_out_dAUC,perm_importance_auc,21,-0.6114359974009097,0.003228837097627073
+EARLY_t56,56,VLEonly,LR,add_one_in_dAUC,leave_one_out_dAUC,21,-0.46623376623376617,0.03314052796877135
+EARLY_t56,56,VLEonly,LR,add_one_in_dAUC,perm_importance_auc,21,0.548051948051948,0.010108159690260706
+EARLY_t56,56,VLEonly,LR,leave_one_out_dAUC,perm_importance_auc,21,-0.9077922077922078,1.33316709163655e-08
+EARLY_t56,56,VLEonly,GBM,add_one_in_dAUC,leave_one_out_dAUC,21,-0.5152696556205328,0.016824727500340156
+EARLY_t56,56,VLEonly,GBM,add_one_in_dAUC,perm_importance_auc,21,0.7076023391812866,0.0003332111928761841
+EARLY_t56,56,VLEonly,GBM,leave_one_out_dAUC,perm_importance_auc,21,-0.8128654970760234,7.5280014650019595e-06

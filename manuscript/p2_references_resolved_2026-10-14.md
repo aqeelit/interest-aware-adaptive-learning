@@ -1,0 +1,19 @@
+# Paper 2 references: resolution of unverified items (2026-10-14)
+Method: web search + publisher/repository record pages (CrossRef API was blocked in the cloud shell).
+Level RECORD = bibliographic record page seen, not full text. Recheck each against the source before submission.
+
+| Key | Resolved reference (APA 7 draft) | Identifier | Level | Note |
+|---|---|---|---|---|
+| lim2026 | Lim, M. (2026). Student-disjoint cross-module benchmarking for calibrated early warning in online learning. International Journal of Advanced Computer Science and Applications, 17(9), 617-623. | doi:10.14569/IJACSA.2026.0170958 | FULL TEXT earlier; DOI/author from IJACSA issue page | page range from earlier full-text read, not shown on issue page |
+| liu2015 | Atif, A., Froissard, C., Liu, D., & Richards, D. (2015). Validating the effectiveness of the Moodle Engagement Analytics Plugin to predict student academic performance. AMCIS 2015 Proceedings. | https://aisel.aisnet.org/amcis2015/ISEdu/GeneralPresentations/12 | RECORD | DRAFT HAD AUTHOR ORDER WRONG (Liu et al.). Fix in-text to Atif et al. (2015). Check it is the paper the claim came from (alt: Liu et al. 2015 ASCILITE plugin paper). |
+| marras2021 | Marras, M., Vignoud, J. T. T., & Käser, T. (2021). Can feature predictive power generalize? Benchmarking early predictors of student success across flipped and online courses. Proceedings of EDM 2021. | https://educationaldatamining.org/EDM2021/virtual/static/pdf/EDM21_paper_202.pdf | RECORD | no DOI listed |
+| riazy2019 | Riazy, S., & Simbeck, K. (2019). Predictive algorithms in learning analytics and their fairness. In DELFI 2019 (LNI P-297, pp. 223-228). | doi:10.18420/delfi2019_305 ; https://dl.gi.de/handle/20.500.12116/24401 | RECORD | DOI valid per GI Digital Library (not a CrossRef DOI) |
+| jovanovic2021 | Jovanovic, J., Saqr, M., Joksimovic, S., & Gasevic, D. (2021). Students matter the most in learning analytics: The effects of internal and instructional conditions in predicting academic success. Computers & Education, 172, 104251. | doi:10.1016/j.compedu.2021.104251 | RECORD | confirm this is the 15-course/50-offering study the draft describes |
+| saqr2022 | Saqr, M., Jovanovic, J., Viberg, O., & Gasevic, D. (2022). Is there order in the mess? A single paper meta-analysis approach to identification of predictors of success in learning analytics. Studies in Higher Education, 47(12), 2370-2391. | doi:10.1080/03075079.2022.2061450 | RECORD | |
+| esbenshade2024 | Esbenshade, L., Vitale, J., & Baker, R. S. (2024). Non-overlapping leave future out validation (NOLFO): Implications for graduation prediction. Proceedings of EDM 2024, 602-609. | doi:10.5281/zenodo.12729894 | RECORD (PDF page seen) | CITED ONLY in the draft: open before use |
+| karimi2021 | Karimi-Haghighi, M., Castillo, C., Hernandez-Leo, D., & Moreno Oliver, V. (2021). Predicting early dropout: Calibration and algorithmic fairness considerations. arXiv:2103.09068. | arXiv:2103.09068 | RECORD | Draft says LAK21 Companion pp. 294-304 (via Lim); NOT verified. Cite arXiv unless the venue is confirmed. |
+| hlosta2014 | Hlosta, M., Herrmannova, D., Vachova, L., Kuzilek, J., Zdrahal, Z., & Wolff, A. (2014). Modelling student online behaviour in a virtual learning environment. arXiv:1811.06369. | arXiv:1811.06369 | RECORD | Matches the draft snippet (OU VLE clicks by week and content type). Copyright notice says LAK 2014 workshop; arXiv upload 2018. Cite as preprint. |
+| borchers2025 | Borchers, C. (2025). Toward sufficient statistical power in algorithmic bias assessment: A test for ABROCA. arXiv:2501.04683. | arXiv:2501.04683 | RECORD | Matches the draft title; EDM 2025 short-paper venue not verified. |
+| schwerter2026 | Venue string in .bib has HTML entity: use "Computers & Education". | | | cleanup only |
+
+Open: Kleter/Conijn/Cui/Gasevic etc. remain VERIFIED by DOI (record level).

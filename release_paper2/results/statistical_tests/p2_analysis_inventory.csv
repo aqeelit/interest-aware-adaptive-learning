@@ -1,0 +1,145 @@
+# EXPLORATORY / POST HOC (p2_prereg_2026-10-14.md); hypothesis-generating only.
+# rows_with_p = rows with a non-missing raw p-value (p_value / spearman_p / spearman_p_unadjusted_descriptive); JSON = count of p_value keys.
+# unique_tests = 0 for files that only copy tests counted in another file.
+# TOTALS: {"rows_with_p": 710, "unique_tests": 610, "unique_tests_prereg_earlier": 438}
+file,round,rows_with_p,unique_tests,copy_of_tests_in_other_file,prereg_file,prereg_timestamp,file_mtime_utc,prereg_earlier_than_output
+assistments_item_difficulty.csv,original study,0,0,False,,,2026-08-30T13:03:52+00:00,no prereg
+assistments_person_ability.csv,original study,0,0,False,,,2026-08-30T13:03:52+00:00,no prereg
+assistments_person_ability_deidentified.csv,original study,0,0,False,,,2026-09-01T21:54:46+00:00,no prereg
+assistments_rasch_fit.json,original study,0,0,False,,,2026-08-30T13:03:52+00:00,no prereg
+breadth_full21_reproduction_check.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:09+00:00,yes
+breadth_lopo_comparisons_bh.csv,leak/breadth 2026-10-13,24,24,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:05+00:00,yes
+breadth_lopo_metrics_summary.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:05+00:00,yes
+breadth_lopo_oof_predictions.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:09+00:00,yes
+breadth_lopo_per_course.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:09+00:00,yes
+breadth_lopo_per_course_fold_metrics.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:05+00:00,yes
+breadth_lopo_per_course_summary.csv,leak/breadth 2026-10-13,16,16,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:09+00:00,yes
+breadth_stratcv_comparisons_bh.csv,leak/breadth 2026-10-13,48,48,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:36:57+00:00,yes
+breadth_stratcv_fold_metrics.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:36:57+00:00,yes
+breadth_stratcv_metrics_summary.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:36:57+00:00,yes
+breadth_stratcv_oof_predictions.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:05+00:00,yes
+ci1_stratcv_comparisons_bh.csv,course-identity 2026-10-13,6,6,False,,,2026-10-13T18:50:33+00:00,no prereg
+ci1_stratcv_fold_metrics.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:50:33+00:00,no prereg
+ci1_stratcv_metrics_summary.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:50:33+00:00,no prereg
+ci1_stratcv_oof_predictions.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:50:36+00:00,no prereg
+ci2_lopo_comparisons_bh.csv,course-identity 2026-10-13,8,8,False,,,2026-10-13T18:53:16+00:00,no prereg
+ci2_lopo_metrics_summary.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:53:16+00:00,no prereg
+ci2_lopo_oof_predictions.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:53:17+00:00,no prereg
+ci2_lopo_per_course_metrics.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:53:16+00:00,no prereg
+ci2_lopo_rerun_check.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:53:16+00:00,no prereg
+ci3_studentdisjoint_comparisons_bh.csv,course-identity 2026-10-13,4,4,False,,,2026-10-13T18:54:36+00:00,no prereg
+ci3_studentdisjoint_fold_metrics.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:54:36+00:00,no prereg
+ci3_studentdisjoint_metrics_summary.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:54:36+00:00,no prereg
+ci3_studentdisjoint_oof_predictions.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:54:37+00:00,no prereg
+ci4_lopo_per_course_d_vs_e.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:48:35+00:00,no prereg
+ci4_lopo_per_course_summary.csv,course-identity 2026-10-13,2,2,False,,,2026-10-13T18:48:35+00:00,no prereg
+ci5_keyaligned_all28_pairs.csv,course-identity 2026-10-13,28,28,False,,,2026-10-13T18:48:33+00:00,no prereg
+ci5_manuscript_cited_old_vs_new.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:48:33+00:00,no prereg
+ci5_significance_count_old_vs_new.csv,course-identity 2026-10-13,0,0,False,,,2026-10-13T18:48:33+00:00,no prereg
+construct_validity_check.json,original study,4,4,False,,,2026-09-01T21:16:45+00:00,no prereg
+early_course_passrates.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:28:13+00:00,yes
+early_lopo_comparisons_bh.csv,WD/EARLY 2026-10-13,16,16,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:37:32+00:00,yes
+early_lopo_criterion_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:37:32+00:00,yes
+early_lopo_metrics_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:37:32+00:00,yes
+early_lopo_oof_predictions.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:37:42+00:00,yes
+early_lopo_per_course_base_vs_ctr.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:37:32+00:00,yes
+early_lopo_per_course_fold_metrics.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:37:32+00:00,yes
+early_lopo_per_course_summary.csv,WD/EARLY 2026-10-13,8,8,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:37:32+00:00,yes
+early_sample_description.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:28:13+00:00,yes
+early_stratcv_comparisons_bh.csv,WD/EARLY 2026-10-13,24,24,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:28:13+00:00,yes
+early_stratcv_criterion_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:28:13+00:00,yes
+early_stratcv_fold_metrics.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:28:13+00:00,yes
+early_stratcv_metrics_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:28:13+00:00,yes
+early_stratcv_oof_predictions.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:28:21+00:00,yes
+final_1_attribution_metrics_summary.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:36+00:00,yes
+final_1_reproduction_check.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:36+00:00,yes
+final_1ab_attribution_comparisons_bh.csv,final 2026-10-14,168,168,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:36+00:00,yes
+final_1c_stability.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:36+00:00,yes
+final_1d_rank_agreement.csv,final 2026-10-14,12,12,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:36+00:00,yes
+final_1e_unit_descriptives.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:36+00:00,yes
+final_2_noclick_comparisons_bh.csv,final 2026-10-14,32,32,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T21:56:06+00:00,yes
+final_2_noclick_excluded_group.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T21:56:06+00:00,yes
+final_2_noclick_metrics_summary.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T21:56:06+00:00,yes
+final_5_patch_affected_files.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:32:20+00:00,yes
+final_5_publication_scan.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:32:20+00:00,yes
+final_analysis_inventory.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:56+00:00,yes
+final_analysis_inventory_by_round.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T22:31:56+00:00,yes
+final_paper_numbers.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T21:46:04+00:00,yes
+final_paper_numbers_rederivation.csv,final 2026-10-14,0,0,False,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,2026-10-13T21:46:04+00:00,yes
+leak_1a_sanity_rebuild_vs_early_outputs.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:43+00:00,yes
+leak_1b_provenance.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:43+00:00,yes
+leak_1b_riskset.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:43+00:00,yes
+leak_1c_reimpl_column_diffs.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:43+00:00,yes
+leak_1c_reimpl_rows.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:43+00:00,yes
+leak_1d_decode_09615_locations.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:44+00:00,yes
+leak_1d_decode_metrics.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:43+00:00,yes
+leak_1e_single_feature_metrics.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:56:41+00:00,yes
+leak_1f_nosubmission_noclick_groups.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:56:41+00:00,yes
+leak_audit_verdict.csv,leak/breadth 2026-10-13,0,0,False,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T19:55:44+00:00,yes
+leak_breadth_SUMMARY.csv,leak/breadth 2026-10-13,72,0,True,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,2026-10-13T20:37:09+00:00,yes
+ml_1a_icc.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:57:18+00:00,yes
+ml_1b_comparisons_bh.csv,ml 2026-10-14,18,18,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:57:18+00:00,yes
+ml_1b_fold_metrics.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:57:18+00:00,yes
+ml_1b_metrics_summary.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:57:18+00:00,yes
+ml_1b_oof_predictions.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:57:21+00:00,yes
+ml_1b_reproduction_check.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:57:21+00:00,yes
+ml_2_lomo_comparisons_bh.csv,ml 2026-10-14,6,6,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:59:22+00:00,yes
+ml_2_lomo_fold_metrics.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:59:22+00:00,yes
+ml_2_lomo_fold_rows_removed.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:59:22+00:00,yes
+ml_2_lomo_metrics_summary.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:59:22+00:00,yes
+ml_2_lomo_oof_predictions.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:59:24+00:00,yes
+ml_2_lomo_per_module.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T22:59:22+00:00,yes
+ml_3_module_comparisons_bh.csv,ml 2026-10-14,28,28,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T23:01:33+00:00,yes
+ml_3_module_fold_metrics.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T23:01:34+00:00,yes
+ml_3_module_metrics_summary.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T23:01:33+00:00,yes
+ml_3_module_n.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T23:01:33+00:00,yes
+ml_3_module_oof_predictions.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T23:01:34+00:00,yes
+ml_3_random_effects.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T23:01:33+00:00,yes
+ml_3_replication_labels.csv,ml 2026-10-14,0,0,False,prereg_ml_2026-10-14.md,2026-10-14T01:47:06+03:00,2026-10-13T23:01:33+00:00,yes
+oulad_fold_predictions.csv,original study,0,0,False,,,2026-08-30T13:02:43+00:00,no prereg
+oulad_pairwise_comparison.csv,original study,28,28,False,,,2026-09-01T21:16:30+00:00,no prereg
+oulad_pairwise_comparison_corrected.csv,original study,28,0,True,,,2026-09-01T21:16:30+00:00,no prereg
+oulad_subgroup_fairness.csv,original study,0,0,False,,,2026-09-01T21:16:56+00:00,no prereg
+p2_1_zbase_comparisons_bh.csv,p2 2026-10-14,20,20,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:40:12+00:00,yes
+p2_1_zbase_fold_metrics.csv,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:40:12+00:00,yes
+p2_1_zbase_metrics_summary.csv,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:40:12+00:00,yes
+p2_1_zbase_oof_predictions.csv,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:40:16+00:00,yes
+p2_1_zbase_reproduction_check.csv,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:40:16+00:00,yes
+p2_5_dropped_rows_breakdown.csv,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:34:45+00:00,yes
+p2_5_software_versions.csv,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:34:44+00:00,yes
+p2_references_raw.json,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:33:59+00:00,yes
+p2_references_verified.csv,p2 2026-10-14,0,0,False,p2_prereg_2026-10-14.md,2026-10-14T22:28:38+03:00,2026-10-14T19:33:59+00:00,yes
+robustness_bootstrap_d_vs_e.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:20:50+00:00,no prereg
+robustness_dimctrl_bootstrap.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:23:02+00:00,no prereg
+robustness_dimctrl_fold_metrics.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:20:56+00:00,no prereg
+robustness_dimctrl_mcnemar_bh.csv,robustness 2026-10-13,8,8,False,,,2026-10-13T18:20:57+00:00,no prereg
+robustness_dimctrl_metrics_summary.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:20:56+00:00,no prereg
+robustness_dimctrl_oof_predictions.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:20:56+00:00,no prereg
+robustness_fairness_gender_fnr.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:23:06+00:00,no prereg
+robustness_fairness_gender_gap_differences.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:23:06+00:00,no prereg
+robustness_gbm_pairwise_mcnemar_bh.csv,robustness 2026-10-13,21,21,False,,,2026-10-13T18:17:14+00:00,no prereg
+robustness_lopo_metrics_summary.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:18:36+00:00,no prereg
+robustness_lopo_pairwise_mcnemar_bh.csv,robustness 2026-10-13,42,42,False,,,2026-10-13T18:18:38+00:00,no prereg
+robustness_lopo_per_course_metrics.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:18:36+00:00,no prereg
+robustness_lopo_student_overlap.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:18:36+00:00,no prereg
+robustness_lr_pairwise_mcnemar_bh_keyaligned.csv,robustness 2026-10-13,21,21,False,,,2026-10-13T18:17:15+00:00,no prereg
+robustness_lr_reproduction_check.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:17:13+00:00,no prereg
+robustness_oof_predictions_lopo.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:18:36+00:00,no prereg
+robustness_oof_predictions_stratcv.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:17:13+00:00,no prereg
+robustness_stratcv_fold_metrics.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:17:13+00:00,no prereg
+robustness_stratcv_metrics_summary.csv,robustness 2026-10-13,0,0,False,,,2026-10-13T18:17:13+00:00,no prereg
+wd_course_passrates.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:20:02+00:00,yes
+wd_lopo_comparisons_bh.csv,WD/EARLY 2026-10-13,4,4,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:29:49+00:00,yes
+wd_lopo_criterion_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:29:49+00:00,yes
+wd_lopo_metrics_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:29:49+00:00,yes
+wd_lopo_oof_predictions.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:29:51+00:00,yes
+wd_lopo_per_course_base_vs_ctr.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:29:49+00:00,yes
+wd_lopo_per_course_fold_metrics.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:29:49+00:00,yes
+wd_lopo_per_course_summary.csv,WD/EARLY 2026-10-13,2,2,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:29:49+00:00,yes
+wd_sample_description.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:20:02+00:00,yes
+wd_sanity_fullsample_check.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:16:19+00:00,yes
+wd_stratcv_comparisons_bh.csv,WD/EARLY 2026-10-13,12,12,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:20:02+00:00,yes
+wd_stratcv_criterion_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:20:02+00:00,yes
+wd_stratcv_fold_metrics.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:20:02+00:00,yes
+wd_stratcv_metrics_summary.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:20:02+00:00,yes
+wd_stratcv_oof_predictions.csv,WD/EARLY 2026-10-13,0,0,False,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,2026-10-13T19:20:05+00:00,yes

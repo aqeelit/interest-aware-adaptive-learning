@@ -1,0 +1,12 @@
+# Per builder call: per-student max of the raw timestamp column actually passed in; violations = students with max > t (counted for value-producing calls only).
+cutoff_days,call_seq,builder,feature_group,role,time_col,n_input_rows,n_students_with_records,max_timestamp_over_students,n_students_max_gt_t,provenance_violations
+28,0,build_feature_set_D_interest,I_interest,column_labels_only (full_interest_columns: output used only for .columns),date,10655280,29228,269.0,26036,
+28,1,build_feature_set_B_performance,B_assessment,values,date_submitted,25596,20819,28.0,0,0.0
+28,2,build_feature_set_C_behavior,C_behaviour,values,date,2847851,28792,28.0,0,0.0
+28,3,build_feature_set_D_interest,I_interest,values,date,2847851,28792,28.0,0,0.0
+28,4,leakbreadth_common.breadth_features,breadth,values,date,2847851,28792,28.0,0,0.0
+56,0,build_feature_set_D_interest,I_interest,column_labels_only (full_interest_columns: output used only for .columns),date,10655280,29228,269.0,23904,
+56,1,build_feature_set_B_performance,B_assessment,values,date_submitted,51533,24357,56.0,0,0.0
+56,2,build_feature_set_C_behavior,C_behaviour,values,date,4331544,29083,56.0,0,0.0
+56,3,build_feature_set_D_interest,I_interest,values,date,4331544,29083,56.0,0,0.0
+56,4,leakbreadth_common.breadth_features,breadth,values,date,4331544,29083,56.0,0,0.0

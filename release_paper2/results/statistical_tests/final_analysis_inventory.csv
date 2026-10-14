@@ -1,0 +1,114 @@
+# EXPLORATORY / POST HOC (prereg_final_2026-10-14.md); hypothesis-generating only.
+# n_tests = rows with a non-missing raw p-value (first of p_value / spearman_p / spearman_p_unadjusted_descriptive); JSON = count of p_value keys.
+# prereg_earlier = prereg 'Written:' timestamp earlier than the file's modification time.
+# n_tests_unique = 0 for files that only copy tests counted in another file.
+# TOTALS: {"all_rows_with_p": 638, "unique": 538, "unique_in_prereg_rounds": 366, "unique_prereg_earlier_than_file": 366}
+file,round,file_mtime_utc,p_column,n_tests,bh_family,n_rows,prereg_file,prereg_written,prereg_earlier,copies_tests_of,copy_verified_by_p_values,n_tests_unique
+assistments_item_difficulty.csv,original study (pre-2026-10-13),2026-08-30T13:03:52+00:00,,0,,2137.0,none,,False,,,0
+assistments_person_ability.csv,original study (pre-2026-10-13),2026-08-30T13:03:52+00:00,,0,,1707.0,none,,False,,,0
+assistments_person_ability_deidentified.csv,original study (pre-2026-10-13),2026-09-01T21:54:46+00:00,,0,,1707.0,none,,False,,,0
+assistments_rasch_fit.json,original study (pre-2026-10-13),2026-08-30T13:03:52+00:00,p_value (JSON keys),0,no BH adjustment in file,,none,,False,,,0
+breadth_full21_reproduction_check.csv,leak/breadth 2026-10-13,2026-10-13T20:37:09+00:00,,0,,40.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+breadth_lopo_comparisons_bh.csv,leak/breadth 2026-10-13,2026-10-13T20:37:05+00:00,p_value,24,bh_family_size=6 | OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (6 rows).,24.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,24
+breadth_lopo_metrics_summary.csv,leak/breadth 2026-10-13,2026-10-13T20:37:05+00:00,,0,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (6 rows).,24.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+breadth_lopo_oof_predictions.csv,leak/breadth 2026-10-13,2026-10-13T20:37:09+00:00,,0,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (6 rows).,648720.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+breadth_lopo_per_course.csv,leak/breadth 2026-10-13,2026-10-13T20:37:09+00:00,,0,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (6 rows).,352.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+breadth_lopo_per_course_fold_metrics.csv,leak/breadth 2026-10-13,2026-10-13T20:37:05+00:00,,0,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (6 rows).,528.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+breadth_lopo_per_course_summary.csv,leak/breadth 2026-10-13,2026-10-13T20:37:09+00:00,spearman_p,16,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (6 rows).,16.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,16
+breadth_stratcv_comparisons_bh.csv,leak/breadth 2026-10-13,2026-10-13T20:36:57+00:00,p_value,48,bh_family_size=12 | OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (12 rows).,48.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,48
+breadth_stratcv_fold_metrics.csv,leak/breadth 2026-10-13,2026-10-13T20:36:57+00:00,,0,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (12 rows).,280.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+breadth_stratcv_metrics_summary.csv,leak/breadth 2026-10-13,2026-10-13T20:36:57+00:00,,0,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (12 rows).,56.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+breadth_stratcv_oof_predictions.csv,leak/breadth 2026-10-13,2026-10-13T20:37:05+00:00,,0,OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each cutoff x feature family (12 rows).,1513680.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+ci1_stratcv_comparisons_bh.csv,course-identity 2026-10-13,2026-10-13T18:50:33+00:00,p_value,6,bh_family_size=6 | OR = b_only_correct / a_only_correct; bootstrap differences are b - a; BH across all rows of this file.,6.0,none,,False,,,6
+ci1_stratcv_fold_metrics.csv,course-identity 2026-10-13,2026-10-13T18:50:33+00:00,,0,,50.0,none,,False,,,0
+ci1_stratcv_metrics_summary.csv,course-identity 2026-10-13,2026-10-13T18:50:33+00:00,,0,,10.0,none,,False,,,0
+ci1_stratcv_oof_predictions.csv,course-identity 2026-10-13,2026-10-13T18:50:36+00:00,,0,,257700.0,none,,False,,,0
+ci2_lopo_comparisons_bh.csv,course-identity 2026-10-13,2026-10-13T18:53:16+00:00,p_value,8,bh_family_size=8 | OR = b_only_correct / a_only_correct; bootstrap differences are b - a; BH across all rows of this file.,8.0,none,,False,,,8
+ci2_lopo_metrics_summary.csv,course-identity 2026-10-13,2026-10-13T18:53:16+00:00,,0,,10.0,none,,False,,,0
+ci2_lopo_oof_predictions.csv,course-identity 2026-10-13,2026-10-13T18:53:17+00:00,,0,,257700.0,none,,False,,,0
+ci2_lopo_per_course_metrics.csv,course-identity 2026-10-13,2026-10-13T18:53:16+00:00,,0,,220.0,none,,False,,,0
+ci2_lopo_rerun_check.csv,course-identity 2026-10-13,2026-10-13T18:53:16+00:00,,0,,4.0,none,,False,,,0
+ci3_studentdisjoint_comparisons_bh.csv,course-identity 2026-10-13,2026-10-13T18:54:36+00:00,p_value,4,bh_family_size=4 | OR = b_only_correct / a_only_correct; bootstrap differences are b - a; BH across all rows of this file.,4.0,none,,False,,,4
+ci3_studentdisjoint_fold_metrics.csv,course-identity 2026-10-13,2026-10-13T18:54:36+00:00,,0,,108.0,none,,False,,,0
+ci3_studentdisjoint_metrics_summary.csv,course-identity 2026-10-13,2026-10-13T18:54:36+00:00,,0,,8.0,none,,False,,,0
+ci3_studentdisjoint_oof_predictions.csv,course-identity 2026-10-13,2026-10-13T18:54:37+00:00,,0,,206160.0,none,,False,,,0
+ci4_lopo_per_course_d_vs_e.csv,course-identity 2026-10-13,2026-10-13T18:48:35+00:00,,0,,44.0,none,,False,,,0
+ci4_lopo_per_course_summary.csv,course-identity 2026-10-13,2026-10-13T18:48:35+00:00,spearman_p,2,no BH adjustment in file,2.0,none,,False,,,2
+ci5_keyaligned_all28_pairs.csv,course-identity 2026-10-13,2026-10-13T18:48:33+00:00,p_value,28,"Source predictions: oulad_fold_predictions.csv (LR, stratified 5-fold, seed 42), keys reattached; OLD = oulad_pairwise_comparison(_corrected).csv (positional row_index alignment). OR = b_only_correct / a_only_correct. BH over all 28 pairs unless column says otherwise.",28.0,none,,False,,,28
+ci5_manuscript_cited_old_vs_new.csv,course-identity 2026-10-13,2026-10-13T18:48:33+00:00,,0,"Source predictions: oulad_fold_predictions.csv (LR, stratified 5-fold, seed 42), keys reattached; OLD = oulad_pairwise_comparison(_corrected).csv (positional row_index alignment). OR = b_only_correct / a_only_correct. BH over all 28 pairs unless column says otherwise.",143.0,none,,False,,,0
+ci5_significance_count_old_vs_new.csv,course-identity 2026-10-13,2026-10-13T18:48:33+00:00,,0,"Source predictions: oulad_fold_predictions.csv (LR, stratified 5-fold, seed 42), keys reattached; OLD = oulad_pairwise_comparison(_corrected).csv (positional row_index alignment). OR = b_only_correct / a_only_correct. BH over all 28 pairs unless column says otherwise.",1.0,none,,False,,,0
+construct_validity_check.json,original study (pre-2026-10-13),2026-09-01T21:16:45+00:00,p_value (JSON keys),4,no BH adjustment in file,,none,,False,,,4
+early_course_passrates.csv,WD/EARLY 2026-10-13,2026-10-13T19:28:13+00:00,,0,,44.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_lopo_comparisons_bh.csv,WD/EARLY 2026-10-13,2026-10-13T19:37:32+00:00,p_value,16,bh_family_size=4 | OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each setting (bh_family_size).,16.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,16
+early_lopo_criterion_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:37:32+00:00,,0,,8.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_lopo_metrics_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:37:32+00:00,,0,,24.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_lopo_oof_predictions.csv,WD/EARLY 2026-10-13,2026-10-13T19:37:42+00:00,,0,,648720.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_lopo_per_course_base_vs_ctr.csv,WD/EARLY 2026-10-13,2026-10-13T19:37:32+00:00,,0,,176.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_lopo_per_course_fold_metrics.csv,WD/EARLY 2026-10-13,2026-10-13T19:37:32+00:00,,0,,528.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_lopo_per_course_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:37:32+00:00,spearman_p,8,no BH adjustment in file,8.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,8
+early_sample_description.csv,WD/EARLY 2026-10-13,2026-10-13T19:28:13+00:00,,0,,2.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_stratcv_comparisons_bh.csv,WD/EARLY 2026-10-13,2026-10-13T19:28:13+00:00,p_value,24,bh_family_size=6 | OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each setting (bh_family_size).,24.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,24
+early_stratcv_criterion_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:28:13+00:00,,0,,12.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_stratcv_fold_metrics.csv,WD/EARLY 2026-10-13,2026-10-13T19:28:13+00:00,,0,,240.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_stratcv_metrics_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:28:13+00:00,,0,,48.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+early_stratcv_oof_predictions.csv,WD/EARLY 2026-10-13,2026-10-13T19:28:21+00:00,,0,,1297440.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+final_1_attribution_metrics_summary.csv,final 2026-10-14,2026-10-13T22:31:36+00:00,,0,,176.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+final_1_reproduction_check.csv,final 2026-10-14,2026-10-13T22:31:36+00:00,,0,,8.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+final_1ab_attribution_comparisons_bh.csv,final 2026-10-14,2026-10-13T22:31:36+00:00,p_value,168,bh_family_size=21 | BH across the 21 units within each (analysis x cutoff x model family). flagged per prereg rule.,168.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,168
+final_1c_stability.csv,final 2026-10-14,2026-10-13T22:31:36+00:00,,0,,84.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+final_1d_rank_agreement.csv,final 2026-10-14,2026-10-13T22:31:36+00:00,spearman_p_unadjusted_descriptive,12,no BH adjustment in file,12.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,12
+final_1e_unit_descriptives.csv,final 2026-10-14,2026-10-13T22:31:36+00:00,,0,,42.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+final_2_noclick_comparisons_bh.csv,final 2026-10-14,2026-10-13T21:56:06+00:00,p_value,32,bh_family_size=4 | Arms include course one-hot. BH within each setting (cutoff x feature family x variant; 4 rows).,32.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,32
+final_2_noclick_excluded_group.csv,final 2026-10-14,2026-10-13T21:56:06+00:00,,0,,2.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+final_2_noclick_metrics_summary.csv,final 2026-10-14,2026-10-13T21:56:06+00:00,,0,Arms include course one-hot. BH within each setting (cutoff x feature family x variant; 4 rows).,48.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+final_paper_numbers.csv,final 2026-10-14,2026-10-13T21:46:04+00:00,,0,,58.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+final_paper_numbers_rederivation.csv,final 2026-10-14,2026-10-13T21:46:04+00:00,,0,,194.0,prereg_final_2026-10-14.md,2026-10-14T00:35:47+03:00,True,,,0
+leak_1a_sanity_rebuild_vs_early_outputs.csv,leak/breadth 2026-10-13,2026-10-13T19:55:43+00:00,,0,,72.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1b_provenance.csv,leak/breadth 2026-10-13,2026-10-13T19:55:43+00:00,,0,,10.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1b_riskset.csv,leak/breadth 2026-10-13,2026-10-13T19:55:43+00:00,,0,,2.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1c_reimpl_column_diffs.csv,leak/breadth 2026-10-13,2026-10-13T19:55:43+00:00,,0,,62.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1c_reimpl_rows.csv,leak/breadth 2026-10-13,2026-10-13T19:55:43+00:00,,0,,2.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1d_decode_09615_locations.csv,leak/breadth 2026-10-13,2026-10-13T19:55:44+00:00,,0,,2.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1d_decode_metrics.csv,leak/breadth 2026-10-13,2026-10-13T19:55:43+00:00,,0,,32.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1e_single_feature_metrics.csv,leak/breadth 2026-10-13,2026-10-13T19:56:41+00:00,,0,,44.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_1f_nosubmission_noclick_groups.csv,leak/breadth 2026-10-13,2026-10-13T19:56:41+00:00,,0,,6.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_audit_verdict.csv,leak/breadth 2026-10-13,2026-10-13T19:55:44+00:00,,0,,2.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,,,0
+leak_breadth_SUMMARY.csv,leak/breadth 2026-10-13,2026-10-13T20:37:09+00:00,p_value,72,BH column(s) ['bh_p'] present; family not recorded in file,72.0,prereg_leak_breadth_2026-10-13.md,2026-10-13T22:48:15+03:00,True,breadth_stratcv_comparisons_bh.csv; breadth_lopo_comparisons_bh.csv,True,0
+oulad_fold_predictions.csv,original study (pre-2026-10-13),2026-08-30T13:02:43+00:00,,0,,216531.0,none,,False,,,0
+oulad_pairwise_comparison.csv,original study (pre-2026-10-13),2026-09-01T21:16:30+00:00,p_value,28,no BH adjustment in file,28.0,none,,False,,,28
+oulad_pairwise_comparison_corrected.csv,original study (pre-2026-10-13),2026-09-01T21:16:30+00:00,p_value,28,BH column(s) ['p_value_bh_corrected'] present; family not recorded in file,28.0,none,,False,oulad_pairwise_comparison.csv,True,0
+oulad_subgroup_fairness.csv,original study (pre-2026-10-13),2026-09-01T21:16:56+00:00,,0,,9.0,none,,False,,,0
+robustness_bootstrap_d_vs_e.csv,robustness 2026-10-13,2026-10-13T18:20:50+00:00,,0,,8.0,none,,False,,,0
+robustness_dimctrl_bootstrap.csv,robustness 2026-10-13,2026-10-13T18:23:02+00:00,,0,,8.0,none,,False,,,0
+robustness_dimctrl_fold_metrics.csv,robustness 2026-10-13,2026-10-13T18:20:56+00:00,,0,,20.0,none,,False,,,0
+robustness_dimctrl_mcnemar_bh.csv,robustness 2026-10-13,2026-10-13T18:20:57+00:00,p_value,8,bh_family_size=8,8.0,none,,False,,,8
+robustness_dimctrl_metrics_summary.csv,robustness 2026-10-13,2026-10-13T18:20:56+00:00,,0,,8.0,none,,False,,,0
+robustness_dimctrl_oof_predictions.csv,robustness 2026-10-13,2026-10-13T18:20:56+00:00,,0,,103080.0,none,,False,,,0
+robustness_fairness_gender_fnr.csv,robustness 2026-10-13,2026-10-13T18:23:06+00:00,,0,,6.0,none,,False,,,0
+robustness_fairness_gender_gap_differences.csv,robustness 2026-10-13,2026-10-13T18:23:06+00:00,,0,,4.0,none,,False,,,0
+robustness_gbm_pairwise_mcnemar_bh.csv,robustness 2026-10-13,2026-10-13T18:17:14+00:00,p_value,21,bh_family_size=21,21.0,none,,False,,,21
+robustness_lopo_metrics_summary.csv,robustness 2026-10-13,2026-10-13T18:18:36+00:00,,0,,14.0,none,,False,,,0
+robustness_lopo_pairwise_mcnemar_bh.csv,robustness 2026-10-13,2026-10-13T18:18:38+00:00,p_value,42,bh_family_size=21,42.0,none,,False,,,42
+robustness_lopo_per_course_metrics.csv,robustness 2026-10-13,2026-10-13T18:18:36+00:00,,0,,308.0,none,,False,,,0
+robustness_lopo_student_overlap.csv,robustness 2026-10-13,2026-10-13T18:18:36+00:00,,0,,7.0,none,,False,,,0
+robustness_lr_pairwise_mcnemar_bh_keyaligned.csv,robustness 2026-10-13,2026-10-13T18:17:15+00:00,p_value,21,bh_family_size=21,21.0,none,,False,,,21
+robustness_lr_reproduction_check.csv,robustness 2026-10-13,2026-10-13T18:17:13+00:00,,0,,7.0,none,,False,,,0
+robustness_oof_predictions_lopo.csv,robustness 2026-10-13,2026-10-13T18:18:36+00:00,,0,,367876.0,none,,False,,,0
+robustness_oof_predictions_stratcv.csv,robustness 2026-10-13,2026-10-13T18:17:13+00:00,,0,,367876.0,none,,False,,,0
+robustness_stratcv_fold_metrics.csv,robustness 2026-10-13,2026-10-13T18:17:13+00:00,,0,,70.0,none,,False,,,0
+robustness_stratcv_metrics_summary.csv,robustness 2026-10-13,2026-10-13T18:17:13+00:00,,0,,14.0,none,,False,,,0
+wd_course_passrates.csv,WD/EARLY 2026-10-13,2026-10-13T19:20:02+00:00,,0,,44.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_lopo_comparisons_bh.csv,WD/EARLY 2026-10-13,2026-10-13T19:29:49+00:00,p_value,4,bh_family_size=4 | OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH within each setting (bh_family_size).,4.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,4
+wd_lopo_criterion_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:29:49+00:00,,0,,2.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_lopo_metrics_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:29:49+00:00,,0,,6.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_lopo_oof_predictions.csv,WD/EARLY 2026-10-13,2026-10-13T19:29:51+00:00,,0,,126702.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_lopo_per_course_base_vs_ctr.csv,WD/EARLY 2026-10-13,2026-10-13T19:29:49+00:00,,0,,44.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_lopo_per_course_fold_metrics.csv,WD/EARLY 2026-10-13,2026-10-13T19:29:49+00:00,,0,,132.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_lopo_per_course_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:29:49+00:00,spearman_p,2,no BH adjustment in file,2.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,2
+wd_sample_description.csv,WD/EARLY 2026-10-13,2026-10-13T19:20:02+00:00,,0,,2.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_sanity_fullsample_check.csv,WD/EARLY 2026-10-13,2026-10-13T19:16:19+00:00,,0,,4.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_stratcv_comparisons_bh.csv,WD/EARLY 2026-10-13,2026-10-13T19:20:02+00:00,p_value,12,bh_family_size=12 | OR = b_only_correct / a_only_correct; bootstrap differences b - a; BH across all 12 rows of this file.,12.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,12
+wd_stratcv_criterion_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:20:02+00:00,,0,,6.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_stratcv_fold_metrics.csv,WD/EARLY 2026-10-13,2026-10-13T19:20:02+00:00,,0,,120.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_stratcv_metrics_summary.csv,WD/EARLY 2026-10-13,2026-10-13T19:20:02+00:00,,0,,24.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0
+wd_stratcv_oof_predictions.csv,WD/EARLY 2026-10-13,2026-10-13T19:20:05+00:00,,0,,506772.0,prereg_wd_early_2026-10-13.md,2026-10-13T22:13:30+03:00,True,,,0

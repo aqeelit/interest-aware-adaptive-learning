@@ -1,0 +1,4 @@
+# Pre-registered PASS definition (prereg_leak_breadth_2026-10-13.md).
+feature_family,cutoffs,provenance_violations,reimpl_columns_match,reimpl_rows_and_order_match,max_abs_diff_any_column,audit
+VLEonly,28;56,0,True,True,8.881784197001252e-16,PASS
+withAssess,28;56,0,True,True,7.105427357601002e-15,PASS

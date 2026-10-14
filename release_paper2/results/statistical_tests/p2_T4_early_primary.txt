@@ -1,0 +1,37 @@
+T4. EARLY comparisons. PRIMARY = base_c->full21_ctr (prereg rule)
+base_c = base_course; z_base = base_course_z; z_full21 = base_course_z + full21_ctr.
+Sources: leak_breadth_SUMMARY.csv (BH over 12); p2_1_zbase_comparisons_bh.csv (BH over 4);
+p2_numbers.csv P09 (primary rule, re-derived). z-scoring: within presentation, features only.
+setting|family|comparison|model|N|dAcc|ci_lo|ci_hi|dAUC|bh_p|rule
+EARLY_t28|VLEonly|base_c->z_base|GBM|27538|-7.263e-05|-0.0029|0.0028|0.0017|0.9805|
+EARLY_t28|VLEonly|base_c->z_base|LR|27538|-0.0007989|-0.0027|0.0011|0.000765|0.5802|
+EARLY_t28|VLEonly|base_c->full21_ctr|GBM|27538|0.0078|0.0036|0.0119|0.0123|0.0003435|1
+EARLY_t28|VLEonly|base_c->full21_ctr|LR|27538|0.0092|0.0054|0.0127|0.0120|5.328e-06|1
+EARLY_t28|VLEonly|z_base->z_full21|GBM|27538|0.0075|0.0037|0.0113|0.0116|0.0002199|
+EARLY_t28|VLEonly|z_base->z_full21|LR|27538|0.0108|0.0070|0.0145|0.0118|8.73e-08|
+EARLY_t28|VLEonly|breadth2_ctr->full21_ctr|GBM|27538|0.0085|0.0045|0.0123|0.0125|7.573e-05|
+EARLY_t28|VLEonly|breadth2_ctr->full21_ctr|LR|27538|0.0048|0.0013|0.0084|0.0071|0.0096|
+EARLY_t28|withAssess|base_c->z_base|GBM|27538|0.0036|0.0007237|0.0066|0.0024|0.0221|
+EARLY_t28|withAssess|base_c->z_base|LR|27538|0.0142|0.0109|0.0174|0.0151|1.155e-17|
+EARLY_t28|withAssess|base_c->full21_ctr|GBM|27538|0.0041|0.0009785|0.0073|0.0042|0.0255|1
+EARLY_t28|withAssess|base_c->full21_ctr|LR|27538|0.0058|0.0025|0.0093|0.0098|0.0018|1
+EARLY_t28|withAssess|z_base->z_full21|GBM|27538|-0.00069|-0.0037|0.0023|0.0039|0.6755|
+EARLY_t28|withAssess|z_base->z_full21|LR|27538|0.0062|0.0030|0.0094|0.0079|0.0002986|
+EARLY_t28|withAssess|breadth2_ctr->full21_ctr|GBM|27538|0.0052|0.0017|0.0085|0.0050|0.0039|
+EARLY_t28|withAssess|breadth2_ctr->full21_ctr|LR|27538|3.631e-05|-0.0028|0.0027|0.0038|1.0000|
+EARLY_t56|VLEonly|base_c->z_base|GBM|26522|-0.0004525|-0.0032|0.0026|-9.922e-05|0.7734|
+EARLY_t56|VLEonly|base_c->z_base|LR|26522|-0.0019|-0.0037|-0.0002248|0.0013|0.0648|
+EARLY_t56|VLEonly|base_c->full21_ctr|GBM|26522|0.0165|0.0125|0.0207|0.0153|3.668e-15|1
+EARLY_t56|VLEonly|base_c->full21_ctr|LR|26522|0.0138|0.0097|0.0178|0.0129|5.753e-12|1
+EARLY_t56|VLEonly|z_base->z_full21|GBM|26522|0.0136|0.0098|0.0175|0.0154|4.301e-11|
+EARLY_t56|VLEonly|z_base->z_full21|LR|26522|0.0163|0.0119|0.0200|0.0121|1.836e-15|
+EARLY_t56|VLEonly|breadth2_ctr->full21_ctr|GBM|26522|0.0137|0.0096|0.0176|0.0147|3.272e-11|
+EARLY_t56|VLEonly|breadth2_ctr->full21_ctr|LR|26522|0.0105|0.0068|0.0140|0.0095|2.922e-08|
+EARLY_t56|withAssess|base_c->z_base|GBM|26522|-0.0014|-0.0041|0.0014|0.0006875|0.3986|
+EARLY_t56|withAssess|base_c->z_base|LR|26522|0.0012|-0.0014|0.0038|0.0037|0.3986|
+EARLY_t56|withAssess|base_c->full21_ctr|GBM|26522|-0.0001131|-0.0031|0.0030|0.0001661|0.9615|0
+EARLY_t56|withAssess|base_c->full21_ctr|LR|26522|0.0041|0.0014|0.0067|0.0058|0.0157|0
+EARLY_t56|withAssess|z_base->z_full21|GBM|26522|0.0032|0.000715|0.0057|0.0018|0.0380|
+EARLY_t56|withAssess|z_base->z_full21|LR|26522|0.0051|0.0023|0.0077|0.0055|0.0011|
+EARLY_t56|withAssess|breadth2_ctr->full21_ctr|GBM|26522|0.0040|0.0007931|0.0068|0.0015|0.0380|
+EARLY_t56|withAssess|breadth2_ctr->full21_ctr|LR|26522|0.0027|0.000227|0.0051|0.0031|0.0761|

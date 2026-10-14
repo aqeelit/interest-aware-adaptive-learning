@@ -1,0 +1,7 @@
+setting,cutoff_days,group,n_risk_set,n_in_group,pass_rate_in_group,n_pass_in_group
+EARLY_t28,28,no_scored_submission_by_t,27538,7136,0.444927130044843,3175
+EARLY_t28,28,no_clicks_by_t,27538,921,0.1769815418023887,163
+EARLY_t28,28,no_submission_and_no_clicks,27538,787,0.14358322744599747,113
+EARLY_t56,56,no_scored_submission_by_t,26522,3277,0.2868477265791883,940
+EARLY_t56,56,no_clicks_by_t,26522,603,0.1077943615257048,65
+EARLY_t56,56,no_submission_and_no_clicks,26522,528,0.07575757575757576,40

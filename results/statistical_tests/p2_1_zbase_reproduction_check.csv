@@ -1,0 +1,13 @@
+# EXPLORATORY / POST HOC (p2_prereg_2026-10-14.md); hypothesis-generating only.
+# base_course vs earlier predictions (EARLY: breadth_stratcv base_course; FULL: ci1 E_course).
+setting,family,new_model,earlier_model,n_new,n_earlier,n_matched,y_pred_identical,max_abs_prob_diff
+EARLY_t28_VLEonly,LR,base_course,base_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t28_VLEonly,GBM,base_course,base_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t28_withAssess,LR,base_course,base_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t28_withAssess,GBM,base_course,base_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t56_VLEonly,LR,base_course,base_course,26522,26522,26522,26522,1.1102230246251565e-16
+EARLY_t56_VLEonly,GBM,base_course,base_course,26522,26522,26522,26522,1.1102230246251565e-16
+EARLY_t56_withAssess,LR,base_course,base_course,26522,26522,26522,26522,1.1102230246251565e-16
+EARLY_t56_withAssess,GBM,base_course,base_course,26522,26522,26522,26522,1.1102230246251565e-16
+FULL,LR,base_course,E_course,25770,25770,25770,25770,1.1102230246251565e-16
+FULL,GBM,base_course,E_course,25770,25770,25770,25770,1.1102230246251565e-16

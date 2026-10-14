@@ -23,3 +23,8 @@ data/processed/*
 # user_id replaced by a sequential anonymous ID) for the published equivalent.
 # The pipeline regenerates the real file locally when you run it yourself.
 results/statistical_tests/assistments_person_ability.csv
+
+# Per-student out-of-fold prediction files (contain id_student) — never published.
+results/statistical_tests/*oof_predictions*.csv
+# Run console logs (contain local machine paths).
+results/statistical_tests/*console*.txt

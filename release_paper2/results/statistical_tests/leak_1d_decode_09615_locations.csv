@@ -1,0 +1,4 @@
+# All numeric cells in earlier early_*.csv result files (prediction files excluded) that round to 0.9615.
+file,row,column,value,setting,family,model,model_a,model_b,fold
+early_stratcv_comparisons_bh.csv,22,p_value,0.9615263211218,EARLY_t56_withAssess,GBM,,E_t56_course,E_t56_course_ctr,
+early_stratcv_comparisons_bh.csv,22,p_value_bh,0.9615263211218,EARLY_t56_withAssess,GBM,,E_t56_course,E_t56_course_ctr,

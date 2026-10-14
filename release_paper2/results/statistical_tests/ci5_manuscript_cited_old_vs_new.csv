@@ -1,0 +1,145 @@
+# Source predictions: oulad_fold_predictions.csv (LR, stratified 5-fold, seed 42), keys reattached; OLD = oulad_pairwise_comparison(_corrected).csv (positional row_index alignment). OR = b_only_correct / a_only_correct. BH over all 28 pairs unless column says otherwise.
+model_a,model_b,statistic_name,cited_in_manuscript_text,manuscript_location,OLD_value_row_position,NEW_value_key_aligned,flag
+A_majority_baseline,B,n_common,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),12854,25820,changed
+A_majority_baseline,B,a_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),1253,2290,changed
+A_majority_baseline,B,b_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6193,13313,changed
+A_majority_baseline,B,statistic,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),3276.083937684663,7785.969621226687,changed
+A_majority_baseline,B,p_value,True,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,B,significant_at_0.05,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,B,p_value_bh_corrected,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,B,significant_after_correction,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,B,odds_ratio,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),4.942537909018356,5.81353711790393,changed
+A_majority_baseline,B,odds_ratio_ci_low,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),4.651388090071021,5.561395730254853,changed
+A_majority_baseline,B,odds_ratio_ci_high,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5.251912011863657,6.077110038651749,changed
+A_majority_baseline,Bsens,n_common,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),12781,25816,changed
+A_majority_baseline,Bsens,a_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),1342,2490,changed
+A_majority_baseline,Bsens,b_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6131,13278,changed
+A_majority_baseline,Bsens,statistic,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),3067.70293054998,7379.462772704211,changed
+A_majority_baseline,Bsens,p_value,True,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,Bsens,significant_at_0.05,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,Bsens,p_value_bh_corrected,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,Bsens,significant_after_correction,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,Bsens,odds_ratio,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),4.568554396423249,5.332530120481928,changed
+A_majority_baseline,Bsens,odds_ratio_ci_low,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),4.306513481848104,5.109099656012494,changed
+A_majority_baseline,Bsens,odds_ratio_ci_high,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),4.8465398659616605,5.56573161621208,changed
+A_majority_baseline,C,n_common,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),14670,29228,changed
+A_majority_baseline,C,a_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),1351,2605,changed
+A_majority_baseline,C,b_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5402,11727,changed
+A_majority_baseline,C,statistic,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),2428.920479786761,5804.677714205973,changed
+A_majority_baseline,C,p_value,True,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,C,significant_at_0.05,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,C,p_value_bh_corrected,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,C,significant_after_correction,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,C,odds_ratio,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),3.998519615099926,4.501727447216891,changed
+A_majority_baseline,C,odds_ratio_ci_low,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),3.7670954277523614,4.3146172263224445,changed
+A_majority_baseline,C,odds_ratio_ci_high,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),4.244160897691461,4.696951999679287,changed
+A_majority_baseline,D,n_common,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),12797,25770,changed
+A_majority_baseline,D,a_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),978,1855,changed
+A_majority_baseline,D,b_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6591,14201,changed
+A_majority_baseline,D,statistic,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),4160.991412339808,9491.718049327354,changed
+A_majority_baseline,D,p_value,True,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,D,significant_at_0.05,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,D,p_value_bh_corrected,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,D,significant_after_correction,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,D,odds_ratio,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6.7392638036809815,7.655525606469003,changed
+A_majority_baseline,D,odds_ratio_ci_low,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6.301507568342991,7.293911414302658,changed
+A_majority_baseline,D,odds_ratio_ci_high,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),7.207430305054354,8.03506774107234,changed
+A_majority_baseline,Dsens,n_common,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),12747,25767,changed
+A_majority_baseline,Dsens,a_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),1060,1977,changed
+A_majority_baseline,Dsens,b_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6541,14116,changed
+A_majority_baseline,Dsens,statistic,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),3950.8485725562423,9154.976946498478,changed
+A_majority_baseline,Dsens,p_value,True,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,Dsens,significant_at_0.05,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,Dsens,p_value_bh_corrected,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,Dsens,significant_after_correction,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,Dsens,odds_ratio,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6.170754716981132,7.140111279716742,changed
+A_majority_baseline,Dsens,odds_ratio_ci_low,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5.783023063118105,6.8118404847661616,changed
+A_majority_baseline,Dsens,odds_ratio_ci_high,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6.584482434454235,7.48420183953975,changed
+A_majority_baseline,E,n_common,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),12797,25770,changed
+A_majority_baseline,E,a_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),1067,2074,changed
+A_majority_baseline,E,b_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6393,13748,changed
+A_majority_baseline,E,statistic,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),3801.0221179624655,8611.991467576792,changed
+A_majority_baseline,E,p_value,True,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,E,significant_at_0.05,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,E,p_value_bh_corrected,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,E,significant_after_correction,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,E,odds_ratio,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5.991565135895033,6.628736740597878,changed
+A_majority_baseline,E,odds_ratio_ci_low,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5.615533305840135,6.329649132454838,changed
+A_majority_baseline,E,odds_ratio_ci_high,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6.3927771099386375,6.941956790440734,changed
+A_majority_baseline,Esens,n_common,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),12747,25767,changed
+A_majority_baseline,Esens,a_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),1149,2175,changed
+A_majority_baseline,Esens,b_only_correct,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),6360,13718,changed
+A_majority_baseline,Esens,statistic,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),3614.875482754028,8382.165985024854,changed
+A_majority_baseline,Esens,p_value,True,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,Esens,significant_at_0.05,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,Esens,p_value_bh_corrected,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),0.0,0.0,unchanged
+A_majority_baseline,Esens,significant_after_correction,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),True,True,unchanged
+A_majority_baseline,Esens,odds_ratio,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5.535248041775457,6.307126436781609,changed
+A_majority_baseline,Esens,odds_ratio_ci_low,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5.198181037352746,6.0281793181979255,changed
+A_majority_baseline,Esens,odds_ratio_ci_high,False,manuscript.md L458-460 (all p < 0.001; Supplementary Table S1),5.894171569596276,6.598981514942944,changed
+B,Bsens,n_common,False,manuscript.md L486-491,19222,25816,changed
+B,Bsens,a_only_correct,False,manuscript.md L486-491,1067,558,changed
+B,Bsens,b_only_correct,False,manuscript.md L486-491,912,323,changed
+B,Bsens,statistic,False,manuscript.md L486-491,11.983830217281456,62.15209988649262,changed
+B,Bsens,p_value,False,manuscript.md L486-491,0.0005366416831459,3.1792782842269883e-15,changed
+B,Bsens,significant_at_0.05,True,manuscript.md L486-491,True,True,unchanged
+B,Bsens,p_value_bh_corrected,False,manuscript.md L486-491,0.0005565173010402,3.297029331790951e-15,changed
+B,Bsens,significant_after_correction,False,manuscript.md L486-491,True,True,unchanged
+B,Bsens,odds_ratio,True,manuscript.md L486-491,0.8547328959700093,0.578853046594982,changed
+B,Bsens,odds_ratio_ci_low,True,manuscript.md L486-491,0.7824276156423818,0.5047271570996822,changed
+B,Bsens,odds_ratio_ci_high,True,manuscript.md L486-491,0.9337200130052592,0.6638653078976626,changed
+B,E,n_common,False,manuscript.md L463-464 (H1); abstract L72-73,14372,25770,changed
+B,E,a_only_correct,False,manuscript.md L463-464 (H1); abstract L72-73,1333,685,changed
+B,E,b_only_correct,False,manuscript.md L463-464 (H1); abstract L72-73,1713,1329,changed
+B,E,statistic,True,manuscript.md L463-464 (H1); abstract L72-73,47.15725541694025,205.28748758689176,changed
+B,E,p_value,True,manuscript.md L463-464 (H1); abstract L72-73,6.551369197140125e-12,1.4657399062445476e-46,changed
+B,E,significant_at_0.05,False,manuscript.md L463-464 (H1); abstract L72-73,True,True,unchanged
+B,E,p_value_bh_corrected,False,manuscript.md L463-464 (H1); abstract L72-73,8.338106250905613e-12,1.8654871534021515e-46,changed
+B,E,significant_after_correction,False,manuscript.md L463-464 (H1); abstract L72-73,True,True,unchanged
+B,E,odds_ratio,False,manuscript.md L463-464 (H1); abstract L72-73,1.2850712678169542,1.9401459854014598,changed
+B,E,odds_ratio_ci_low,False,manuscript.md L463-464 (H1); abstract L72-73,1.1962954186622785,1.7692861193225862,changed
+B,E,odds_ratio_ci_high,False,manuscript.md L463-464 (H1); abstract L72-73,1.380435081173605,2.127505779625176,changed
+C,E,n_common,False,manuscript.md L463-464 (H1); abstract L72-73,13138,25770,changed
+C,E,a_only_correct,False,manuscript.md L463-464 (H1); abstract L72-73,1466,1302,changed
+C,E,b_only_correct,False,manuscript.md L463-464 (H1); abstract L72-73,2205,3848,changed
+C,E,statistic,True,manuscript.md L463-464 (H1); abstract L72-73,148.36393353309725,1257.6747572815534,changed
+C,E,p_value,True,manuscript.md L463-464 (H1); abstract L72-73,3.949822721812783e-34,1.7832313862621174e-275,changed
+C,E,significant_at_0.05,False,manuscript.md L463-464 (H1); abstract L72-73,True,True,unchanged
+C,E,p_value_bh_corrected,False,manuscript.md L463-464 (H1); abstract L72-73,6.505590365338702e-34,4.9930478815339284e-275,changed
+C,E,significant_after_correction,False,manuscript.md L463-464 (H1); abstract L72-73,True,True,unchanged
+C,E,odds_ratio,False,manuscript.md L463-464 (H1); abstract L72-73,1.504092769440655,2.955453149001536,changed
+C,E,odds_ratio_ci_low,False,manuscript.md L463-464 (H1); abstract L72-73,1.4079580827391025,2.77545049187867,changed
+C,E,odds_ratio_ci_high,False,manuscript.md L463-464 (H1); abstract L72-73,1.6067914853562208,3.147129931339787,changed
+D,Dsens,n_common,False,manuscript.md L486-488,19132,25767,changed
+D,Dsens,a_only_correct,False,manuscript.md L486-488,777,355,changed
+D,Dsens,b_only_correct,False,manuscript.md L486-488,638,148,changed
+D,Dsens,statistic,False,manuscript.md L486-488,13.458657243816257,84.36580516898609,changed
+D,Dsens,p_value,False,manuscript.md L486-488,0.0002438782347195,4.1119853772638454e-20,changed
+D,Dsens,significant_at_0.05,True,manuscript.md L486-488,True,True,unchanged
+D,Dsens,p_value_bh_corrected,False,manuscript.md L486-488,0.0002626380989287,4.4282919447456797e-20,changed
+D,Dsens,significant_after_correction,False,manuscript.md L486-488,True,True,unchanged
+D,Dsens,odds_ratio,False,manuscript.md L486-488,0.8211068211068211,0.4169014084507042,changed
+D,Dsens,odds_ratio_ci_low,False,manuscript.md L486-488,0.7394739390040617,0.34414977173767414,changed
+D,Dsens,odds_ratio_ci_high,False,manuscript.md L486-488,0.9117514169278196,0.5050323976407108,changed
+D,E,n_common,False,manuscript.md L467-474; abstract L74-75,25770,25770,unchanged
+D,E,a_only_correct,True,manuscript.md L467-474; abstract L74-75,1226,1226,unchanged
+D,E,b_only_correct,True,manuscript.md L467-474; abstract L74-75,554,554,unchanged
+D,E,statistic,False,manuscript.md L467-474; abstract L74-75,252.9443820224719,252.9443820224719,unchanged
+D,E,p_value,True,manuscript.md L467-474; abstract L74-75,5.92314771427827e-57,5.92314771427827e-57,unchanged
+D,E,significant_at_0.05,False,manuscript.md L467-474; abstract L74-75,True,True,unchanged
+D,E,p_value_bh_corrected,True,manuscript.md L467-474; abstract L74-75,1.5077103272708325e-56,7.89753028570436e-57,changed
+D,E,significant_after_correction,True,manuscript.md L467-474; abstract L74-75,True,True,unchanged
+D,E,odds_ratio,True,manuscript.md L467-474; abstract L74-75,0.4518760195758564,0.45187601957585644,unchanged
+D,E,odds_ratio_ci_low,True,manuscript.md L467-474; abstract L74-75,0.4087368596326667,0.4087368596326667,unchanged
+D,E,odds_ratio_ci_high,True,manuscript.md L467-474; abstract L74-75,0.4995681995776642,0.49956819957766424,unchanged
+E,Esens,n_common,False,manuscript.md L496-498,19132,25767,changed
+E,Esens,a_only_correct,False,manuscript.md L496-498,871,323,changed
+E,Esens,b_only_correct,False,manuscript.md L496-498,809,192,changed
+E,Esens,statistic,False,manuscript.md L496-498,2.2148809523809523,32.81553398058252,changed
+E,Esens,p_value,True,manuscript.md L496-498,0.1366856053627006,1.0133184544046027e-08,changed
+E,Esens,significant_at_0.05,False,manuscript.md L496-498,False,True,changed
+E,Esens,p_value_bh_corrected,True,manuscript.md L496-498,0.1366856053627006,1.0133184544046027e-08,changed
+E,Esens,significant_after_correction,True,manuscript.md L496-498,False,True,changed
+E,Esens,odds_ratio,False,manuscript.md L496-498,0.928817451205511,0.5944272445820433,changed
+E,Esens,odds_ratio_ci_low,False,manuscript.md L496-498,0.8440490223263071,0.4971992100646798,changed
+E,Esens,odds_ratio_ci_high,False,manuscript.md L496-498,1.0220992322059506,0.7106683638041872,changed

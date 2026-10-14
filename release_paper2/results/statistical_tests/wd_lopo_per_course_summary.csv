@@ -1,0 +1,6 @@
+# Interest centering: within each code_module+code_presentation using only that presentation's own students (for the held-out course: only the held-out course's students), features only, no labels.
+# Withdrawn excluded; target Pass/Distinction=1, Fail=0.
+# Spearman over spearman_n course presentations.
+setting,family,n_courses,n_rows_total,n_positive_diff,n_zero_diff,n_negative_diff,mean_diff_unweighted,sd_diff_unweighted_ddof1,pooled_diff,spearman_rho_diff_vs_passrate,spearman_p,spearman_n
+WD,LR,22,21117,14,1,7,0.001689179697947493,0.02936702925121005,0.007908320310650141,-0.03670242800677584,0.8711837997313935,22
+WD,GBM,22,21117,16,1,5,0.0024095368925223164,0.06500206995485557,-0.003741061703840587,-0.1360813099943535,0.5459499284864053,22

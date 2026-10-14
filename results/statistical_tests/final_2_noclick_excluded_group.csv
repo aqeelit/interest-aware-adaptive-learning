@@ -1,0 +1,4 @@
+# EXPLORATORY / POST HOC (prereg_final_2026-10-14.md); hypothesis-generating only.
+setting,cutoff_days,n_risk_set,n_noclick_excluded,pass_rate_noclick_group,n_pass_noclick_group,n_after_exclusion,pass_rate_after_exclusion
+EARLY_t28,28,27538,921,0.1769815418023887,163,26617,0.5718901453957996
+EARLY_t56,56,26522,603,0.1077943615257048,65,25919,0.5910721864269455

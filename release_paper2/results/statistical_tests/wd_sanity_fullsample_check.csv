@@ -1,0 +1,6 @@
+# Match = same rows/order, same folds, identical y_pred, max |prob diff| < 1e-9 vs ci1_stratcv_oof_predictions.csv.
+family,model,n_new,n_ci1,n_matched,row_order_identical,y_pred_identical,fold_identical,y_prob_bitwise_identical,max_abs_prob_diff,match,n_studentinfo_rows,n_rows_used,n_dropped_by_feature_inner_join,target_row_count_equals_oulad_target_parquet
+LR,E_course,25770,25770,25770,True,25770,25770,13834,1.1102230246251565e-16,True,32593,25770,6823,True
+LR,D_course,25770,25770,25770,True,25770,25770,13665,1.1102230246251565e-16,True,32593,25770,6823,True
+GBM,E_course,25770,25770,25770,True,25770,25770,11680,1.1102230246251565e-16,True,32593,25770,6823,True
+GBM,D_course,25770,25770,25770,True,25770,25770,11612,1.1102230246251565e-16,True,32593,25770,6823,True

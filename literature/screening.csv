@@ -1,0 +1,39 @@
+DOI,Title,Include_Exclude,Reason
+10.1007/s10639-021-10516-0,Adaptive learning management expert system,Include,Directly addresses dynamic resource selection
+TO_VERIFY,Intelligent educational systems based on adaptive learning algorithms and multimodal behavior modeling,Include,Behavioral telemetry + dynamic recommendation, high relevance
+TO_VERIFY,Enhanced learning resource recommendation based on online learning style model (AROLS),Include,Behavioral data + resource adaptation
+TO_VERIFY,An improved adaptive learning path recommendation model driven by real-time learning analytics,Include,Real-time analytics, moderate sample study
+TO_VERIFY,A recommendation system based on an adaptive learning cognitive map model,Include,Controlled experiment, adaptive resource logic
+TO_VERIFY,Towards Personalized Adaptive Learning in e-Learning Recommender Systems,Include,Relevant framing, low empirical depth
+TO_VERIFY,Dynamic Optimization and Scheduling Mechanism of Adaptive Learning Path with RL,Include,Recent RL approach, 2026
+TO_VERIFY,Adaptive Model for the Selection of Resources and Activities (ALPY),Include,Direct topic match, single case study
+TO_VERIFY,Adaptive Learning Path Generation Big Data Courses (MMKG+RL),Include,Uses IRT for learner profiling - relevant to IRT-BTI
+TO_VERIFY,Quiz-Based Resource Recommendation Decision Tree,Include,Simple baseline-style method, useful contrast
+TO_VERIFY,Dynamic educational recommender system Improved LSTM,Include,Explicit long/short-term interest split from behavior - core evidence
+TO_VERIFY,Personalized Course Recommendation Learner Interest Mining,Include,Interest mining focus
+TO_VERIFY,Power to the Learner (OER recommender),Include,Combines interest+knowledge+novelty at scale - key evidence
+TO_VERIFY,A Comprehensive Study On Personalized Learning Recommendation,Include,Systematic synthesis of methods, useful for related work
+TO_VERIFY,Developing a Personalized E-Learning and MOOC Recommender IoT,Include,Explicit+implicit signal fusion
+TO_VERIFY,Research on Constructing Personalized Learner Profiles Multi-Feature Fusion,Include,Time-decay treatment of evolving interest
+TO_VERIFY,Intelligent Recommendation K-means Clustering,Include,Interest extraction method comparison
+TO_VERIFY,Personalised recommendation collaborative filtering (Yi Song),Include,Interest matrix baseline method
+TO_VERIFY,Online Learning Resource Recommendation Learner Model,Include,Learner model composition reference
+TO_VERIFY,Personalized Learning Resources Recommendation Interest-Oriented Teaching,Include,Direct interest-oriented framing
+TO_VERIFY,AI-based adaptive personalized content presentation VARK,Include,RL-based adaptation, K-12 context for contrast
+TO_VERIFY,Smart E-Learning Framework Sequential Path RL,Include,Future-interest modeling via RL - key evidence
+TO_VERIFY,Student Behavior Modeling E-Learning Personalized,Include,Behavioral modeling baseline
+TO_VERIFY,Relationship Between Learner Engagement and Performance Behavioral Factors,Include,Critiques static learning-style detection - supports gap
+TO_VERIFY,Empowered Learners Digital Age Engagement Agency Interest Motivation,Exclude,Qualitative/non-technical, limited methodological relevance to model design
+TO_VERIFY,Adaptive Learning Using AI in e-Learning Literature Review (Gligorea),Include,High-citation review, general context
+TO_VERIFY,EEG-based measurement system engagement,Exclude,Different modality (biosignal), out of scope for this study's design
+TO_VERIFY,Motivational and Emotional Orientation Engagement Achievement Mathematics,Exclude,Small case study, tangential to resource-selection focus
+TO_VERIFY,Systematic review adaptive learning research designs 2009-2018 (Martin),Include,Core gap evidence
+TO_VERIFY,Personalized adaptive learning higher education scoping review (du Plooy),Include,Core gap evidence
+TO_VERIFY,Overview 25 years digital personalised learning primary secondary,Include,Conceptual inconsistency context, useful for Related Work
+TO_VERIFY,Personalized Adaptive Learning ML Learning Styles Systematic Review,Include,Learning-style dominance context
+TO_VERIFY,A Systematic Review Personalized Learning Personalized by Whom (Bernacki),Include,Theoretical grounding gap, useful for Discussion
+TO_VERIFY,AI in adaptive education systematic review techniques (Xaveria),Include,Recent 2025 review, scalability/interpretability gaps
+TO_VERIFY,Systematic literature review adaptive content recommenders 2015-2020 (Raj),Include,Core gap evidence - cognitive vs non-cognitive attributes
+TO_VERIFY,Leveraging AI E-Learning Cognitive Neuropsychology,Include,Bias/ethics context for Discussion
+TO_VERIFY,Systematic Literature Review Personalised Learning Higher Education (Fariani),Include,Theory-gap context
+TO_VERIFY,Crafting personalized learning paths AI lifelong learning review (Bayly-Castaneda),Include,Recent 2024 review, generative model trend context

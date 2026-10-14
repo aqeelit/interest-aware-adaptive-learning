@@ -1,0 +1,5 @@
+# EXPLORATORY / POST HOC (prereg_ml_2026-10-14.md); hypothesis-generating only.
+# Rule (prereg): >= 5 of 7 modules meet the criterion AND I2 < 50% for both model families = consistent; < 5 modules AND I2 >= 50% (implemented: for both model families) = course-specific; otherwise mixed.
+setting,n_modules,n_modules_meeting_criterion,modules_meeting_criterion,I2_percent_LR,I2_percent_GBM,replication_label,inconclusive_LR,inconclusive_GBM
+EARLY_t28,7,2,DDD;FFF,73.47816399429318,0.0,mixed,AAA;EEE,AAA;BBB;CCC;EEE;GGG
+EARLY_t56,7,4,BBB;DDD;EEE;FFF,0.0,0.0,mixed,AAA;CCC;GGG,GGG

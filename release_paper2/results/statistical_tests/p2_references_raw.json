@@ -1,0 +1,351 @@
+{
+ "le2026:arxiv:2605.25794": {
+  "source": "arxiv",
+  "title": "When Can We Trust Early Warnings? Leakage-Excluded Early Outcome Prediction from LMS Interaction Logs",
+  "authors": [
+   "Le",
+   "Abel",
+   "Laforge"
+  ],
+  "authors_full": [
+   "Ngoc Luyen Le",
+   "Marie-Hélène Abel",
+   "Bertrand Laforge"
+  ],
+  "year": 2026,
+  "all_years": [
+   2026
+  ],
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "doi": "",
+  "arxiv": "2605.25794",
+  "type": "preprint"
+ },
+ "kuzilek2017:doi:10.1038/sdata.2017.171": {
+  "source": "crossref",
+  "title": "Open University Learning Analytics dataset",
+  "authors": [
+   "Kuzilek",
+   "Hlosta",
+   "Zdrahal"
+  ],
+  "authors_full": [
+   "Kuzilek, Jakub",
+   "Hlosta, Martin",
+   "Zdrahal, Zdenek"
+  ],
+  "year": 2017,
+  "all_years": [
+   2017
+  ],
+  "venue": "Scientific Data",
+  "volume": "4",
+  "issue": "1",
+  "pages": "",
+  "doi": "10.1038/sdata.2017.171",
+  "type": "journal-article"
+ },
+ "gasevic2016:doi:10.1016/j.iheduc.2015.10.002": {
+  "source": "crossref",
+  "title": "Learning analytics should not promote one size fits all: The effects of instructional conditions in predicting academic success",
+  "authors": [
+   "Gašević",
+   "Dawson",
+   "Rogers",
+   "Gasevic"
+  ],
+  "authors_full": [
+   "Gašević, Dragan",
+   "Dawson, Shane",
+   "Rogers, Tim",
+   "Gasevic, Danijela"
+  ],
+  "year": 2016,
+  "all_years": [
+   2016
+  ],
+  "venue": "The Internet and Higher Education",
+  "volume": "28",
+  "issue": "",
+  "pages": "68-84",
+  "doi": "10.1016/j.iheduc.2015.10.002",
+  "type": "journal-article"
+ },
+ "conijn2017:doi:10.1109/TLT.2016.2616312": {
+  "source": "crossref",
+  "title": "Predicting Student Performance from LMS Data: A Comparison of 17 Blended Courses Using Moodle LMS",
+  "authors": [
+   "Conijn",
+   "Snijders",
+   "Kleingeld",
+   "Matzat"
+  ],
+  "authors_full": [
+   "Conijn, Rianne",
+   "Snijders, Chris",
+   "Kleingeld, Ad",
+   "Matzat, Uwe"
+  ],
+  "year": 2017,
+  "all_years": [
+   2017
+  ],
+  "venue": "IEEE Transactions on Learning Technologies",
+  "volume": "10",
+  "issue": "1",
+  "pages": "17-29",
+  "doi": "10.1109/tlt.2016.2616312",
+  "type": "journal-article"
+ },
+ "kleter2024:doi:10.1109/TLT.2024.3443079": {
+  "source": "crossref",
+  "title": "Boundary Conditions of Generalizing Predictive Models for Academic Performance: Within Cohort Versus Within Course",
+  "authors": [
+   "Kleter",
+   "Matzat",
+   "Conijn"
+  ],
+  "authors_full": [
+   "Kleter, Sonja",
+   "Matzat, Uwe",
+   "Conijn, Rianne"
+  ],
+  "year": 2024,
+  "all_years": [
+   2024
+  ],
+  "venue": "IEEE Transactions on Learning Technologies",
+  "volume": "17",
+  "issue": "",
+  "pages": "2129-2140",
+  "doi": "10.1109/tlt.2024.3443079",
+  "type": "journal-article"
+ },
+ "cui2020:doi:10.1108/ILS-05-2019-0041": {
+  "source": "crossref",
+  "title": "Scale up predictive models for early detection of at-risk students: a feasibility study",
+  "authors": [
+   "Cui",
+   "Chen",
+   "Shiri"
+  ],
+  "authors_full": [
+   "Cui, Ying",
+   "Chen, Fu",
+   "Shiri, Ali"
+  ],
+  "year": 2020,
+  "all_years": [
+   2020
+  ],
+  "venue": "Information and Learning Sciences",
+  "volume": "121",
+  "issue": "3/4",
+  "pages": "97-116",
+  "doi": "10.1108/ils-05-2019-0041",
+  "type": "journal-article"
+ },
+ "schwerter2026:doi:10.1016/j.compedu.2026.105670": {
+  "source": "crossref",
+  "title": "Cross-course generalizability of SRL-aligned predictive models using digital learning traces",
+  "authors": [
+   "Schwerter",
+   "Sabel",
+   "Bose",
+   "Bernacki",
+   "Xu",
+   "Schmellenkamp",
+   "Zeume",
+   "Doebler"
+  ],
+  "authors_full": [
+   "Schwerter, Jakob",
+   "Sabel, Loreen",
+   "Bose, Judith",
+   "Bernacki, Matthew L.",
+   "Xu, Di",
+   "Schmellenkamp, Marko",
+   "Zeume, Thomas",
+   "Doebler, Philipp"
+  ],
+  "year": 2026,
+  "all_years": [
+   2026
+  ],
+  "venue": "Computers &amp; Education",
+  "volume": "253",
+  "issue": "",
+  "pages": "105670",
+  "doi": "10.1016/j.compedu.2026.105670",
+  "type": "journal-article"
+ },
+ "schwerter2026:arxiv:2604.22812": {
+  "source": "arxiv",
+  "title": "Cross-Course Generalizability of SRL-Aligned Predictive Models Using Digital Learning Traces",
+  "authors": [
+   "Schwerter",
+   "Sabel",
+   "Bose",
+   "Bernacki",
+   "Xu",
+   "Schmellenkamp",
+   "Zeume",
+   "Doebler"
+  ],
+  "authors_full": [
+   "Jakob Schwerter",
+   "Loreen Sabel",
+   "Judith Bose",
+   "Matthew L. Bernacki",
+   "Di Xu",
+   "Marko Schmellenkamp",
+   "Thomas Zeume",
+   "Philipp Doebler"
+  ],
+  "year": 2026,
+  "all_years": [
+   2026
+  ],
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "doi": "",
+  "arxiv": "2604.22812",
+  "type": "preprint"
+ },
+ "riazy2019:doi:10.18420/delfi2019_305": {
+  "http_status": 404
+ },
+ "waheed2020:doi:10.1016/j.chb.2019.106189": {
+  "source": "crossref",
+  "title": "Predicting academic performance of students from VLE big data using deep learning models",
+  "authors": [
+   "Waheed",
+   "Hassan",
+   "Aljohani",
+   "Hardman",
+   "Alelyani",
+   "Nawaz"
+  ],
+  "authors_full": [
+   "Waheed, Hajra",
+   "Hassan, Saeed-Ul",
+   "Aljohani, Naif Radi",
+   "Hardman, Julie",
+   "Alelyani, Salem",
+   "Nawaz, Raheel"
+  ],
+  "year": 2020,
+  "all_years": [
+   2020
+  ],
+  "venue": "Computers in Human Behavior",
+  "volume": "104",
+  "issue": "",
+  "pages": "106189",
+  "doi": "10.1016/j.chb.2019.106189",
+  "type": "journal-article"
+ },
+ "alzawqari2022:doi:10.1016/j.caeai.2022.100103": {
+  "source": "crossref",
+  "title": "A flexible feature selection approach for predicting students’ academic performance in online courses",
+  "authors": [
+   "Al-Zawqari",
+   "Peumans",
+   "Vandersteen"
+  ],
+  "authors_full": [
+   "Al-Zawqari, Ali",
+   "Peumans, Dries",
+   "Vandersteen, Gerd"
+  ],
+  "year": 2022,
+  "all_years": [
+   2022
+  ],
+  "venue": "Computers and Education: Artificial Intelligence",
+  "volume": "3",
+  "issue": "",
+  "pages": "100103",
+  "doi": "10.1016/j.caeai.2022.100103",
+  "type": "journal-article"
+ },
+ "kapoor2023:doi:10.1016/j.patter.2023.100804": {
+  "source": "crossref",
+  "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+  "authors": [
+   "Kapoor",
+   "Narayanan"
+  ],
+  "authors_full": [
+   "Kapoor, Sayash",
+   "Narayanan, Arvind"
+  ],
+  "year": 2023,
+  "all_years": [
+   2023
+  ],
+  "venue": "Patterns",
+  "volume": "4",
+  "issue": "9",
+  "pages": "100804",
+  "doi": "10.1016/j.patter.2023.100804",
+  "type": "journal-article"
+ },
+ "arxiv181106369:arxiv:1811.06369": {
+  "source": "arxiv",
+  "title": "Modelling student online behaviour in a virtual learning environment",
+  "authors": [
+   "Hlosta",
+   "Herrmannova",
+   "Vachova",
+   "Kuzilek",
+   "Zdrahal",
+   "Wolff"
+  ],
+  "authors_full": [
+   "Martin Hlosta",
+   "Drahomira Herrmannova",
+   "Lucie Vachova",
+   "Jakub Kuzilek",
+   "Zdenek Zdrahal",
+   "Annika Wolff"
+  ],
+  "year": 2018,
+  "all_years": [
+   2018
+  ],
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "doi": "",
+  "arxiv": "1811.06369",
+  "type": "preprint"
+ },
+ "abroca_power_2025:arxiv:2501.04683": {
+  "source": "arxiv",
+  "title": "Toward Sufficient Statistical Power in Algorithmic Bias Assessment: A Test for ABROCA",
+  "authors": [
+   "Borchers"
+  ],
+  "authors_full": [
+   "Conrad Borchers"
+  ],
+  "year": 2025,
+  "all_years": [
+   2025
+  ],
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "doi": "",
+  "arxiv": "2501.04683",
+  "type": "preprint"
+ }
+}

@@ -1,0 +1,4 @@
+# Pre-registered criterion (prereg_wd_early_2026-10-13.md).
+setting,model_a,model_b,criterion_met
+WD,E,E_ctr,False
+WD,E_ctrshuf,E_ctr,True

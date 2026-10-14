@@ -1,0 +1,176 @@
+# EXPLORATORY / POST HOC (prereg_final_2026-10-14.md); hypothesis-generating only.
+# has_user_id for .py/.md/.txt etc. = the token 'user_id' appears in the text (e.g. code), not data.
+# id_student = original OULAD student identifier; raw signatures = column sets of raw tables.
+file,tracked_at_HEAD,has_user_id,has_id_student_column,n_rows,raw_oulad_table_signature,raw_assistments_signature,scan
+results/figures/model_comparison_bars.png,True,False,False,,,False,"binary, not scanned"
+results/figures/proposed_framework_diagram.png,True,False,False,,,False,"binary, not scanned"
+results/figures/rasch_ability_distribution.png,True,False,False,,,False,"binary, not scanned"
+results/figures/roc_curves.png,True,False,False,,,False,"binary, not scanned"
+results/statistical_tests/assistments_item_difficulty.csv,True,False,False,2137.0,,False,csv header
+results/statistical_tests/assistments_person_ability.csv,False,True,False,1707.0,,False,csv header
+results/statistical_tests/assistments_person_ability_deidentified.csv,True,False,False,1707.0,,False,csv header
+results/statistical_tests/assistments_rasch_fit.json,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/breadth_full21_reproduction_check.csv,False,False,False,40.0,,False,csv header
+results/statistical_tests/breadth_lopo_comparisons_bh.csv,False,False,False,24.0,,False,csv header
+results/statistical_tests/breadth_lopo_metrics_summary.csv,False,False,False,24.0,,False,csv header
+results/statistical_tests/breadth_lopo_oof_predictions.csv,False,False,True,648720.0,,False,csv header
+results/statistical_tests/breadth_lopo_per_course.csv,False,False,False,352.0,,False,csv header
+results/statistical_tests/breadth_lopo_per_course_fold_metrics.csv,False,False,False,528.0,,False,csv header
+results/statistical_tests/breadth_lopo_per_course_summary.csv,False,False,False,16.0,,False,csv header
+results/statistical_tests/breadth_stratcv_comparisons_bh.csv,False,False,False,48.0,,False,csv header
+results/statistical_tests/breadth_stratcv_fold_metrics.csv,False,False,False,280.0,,False,csv header
+results/statistical_tests/breadth_stratcv_metrics_summary.csv,False,False,False,56.0,,False,csv header
+results/statistical_tests/breadth_stratcv_oof_predictions.csv,False,False,True,1513680.0,,False,csv header
+results/statistical_tests/ci1_stratcv_comparisons_bh.csv,False,False,False,6.0,,False,csv header
+results/statistical_tests/ci1_stratcv_fold_metrics.csv,False,False,False,50.0,,False,csv header
+results/statistical_tests/ci1_stratcv_metrics_summary.csv,False,False,False,10.0,,False,csv header
+results/statistical_tests/ci1_stratcv_oof_predictions.csv,False,False,True,257700.0,,False,csv header
+results/statistical_tests/ci2_lopo_comparisons_bh.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/ci2_lopo_metrics_summary.csv,False,False,False,10.0,,False,csv header
+results/statistical_tests/ci2_lopo_oof_predictions.csv,False,False,True,257700.0,,False,csv header
+results/statistical_tests/ci2_lopo_per_course_metrics.csv,False,False,False,220.0,,False,csv header
+results/statistical_tests/ci2_lopo_rerun_check.csv,False,False,False,4.0,,False,csv header
+results/statistical_tests/ci3_studentdisjoint_comparisons_bh.csv,False,False,False,4.0,,False,csv header
+results/statistical_tests/ci3_studentdisjoint_fold_metrics.csv,False,False,False,108.0,,False,csv header
+results/statistical_tests/ci3_studentdisjoint_metrics_summary.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/ci3_studentdisjoint_oof_predictions.csv,False,False,True,206160.0,,False,csv header
+results/statistical_tests/ci4_lopo_per_course_d_vs_e.csv,False,False,False,44.0,,False,csv header
+results/statistical_tests/ci4_lopo_per_course_summary.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/ci5_keyaligned_all28_pairs.csv,False,False,False,28.0,,False,csv header
+results/statistical_tests/ci5_manuscript_cited_old_vs_new.csv,False,False,False,143.0,,False,csv header
+results/statistical_tests/ci5_significance_count_old_vs_new.csv,False,False,False,1.0,,False,csv header
+results/statistical_tests/ci_run_console_2026-10-13.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/construct_validity_check.json,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/early_course_passrates.csv,False,False,False,44.0,,False,csv header
+results/statistical_tests/early_lopo_comparisons_bh.csv,False,False,False,16.0,,False,csv header
+results/statistical_tests/early_lopo_criterion_summary.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/early_lopo_metrics_summary.csv,False,False,False,24.0,,False,csv header
+results/statistical_tests/early_lopo_oof_predictions.csv,False,False,True,648720.0,,False,csv header
+results/statistical_tests/early_lopo_per_course_base_vs_ctr.csv,False,False,False,176.0,,False,csv header
+results/statistical_tests/early_lopo_per_course_fold_metrics.csv,False,False,False,528.0,,False,csv header
+results/statistical_tests/early_lopo_per_course_summary.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/early_sample_description.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/early_stratcv_comparisons_bh.csv,False,False,False,24.0,,False,csv header
+results/statistical_tests/early_stratcv_criterion_summary.csv,False,False,False,12.0,,False,csv header
+results/statistical_tests/early_stratcv_fold_metrics.csv,False,False,False,240.0,,False,csv header
+results/statistical_tests/early_stratcv_metrics_summary.csv,False,False,False,48.0,,False,csv header
+results/statistical_tests/early_stratcv_oof_predictions.csv,False,False,True,1297440.0,,False,csv header
+results/statistical_tests/final_1_attribution_metrics_summary.csv,False,False,False,176.0,,False,csv header
+results/statistical_tests/final_1_reproduction_check.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/final_1ab_attribution_comparisons_bh.csv,False,False,False,168.0,,False,csv header
+results/statistical_tests/final_1c_stability.csv,False,False,False,84.0,,False,csv header
+results/statistical_tests/final_1d_rank_agreement.csv,False,False,False,12.0,,False,csv header
+results/statistical_tests/final_1e_unit_descriptives.csv,False,False,False,42.0,,False,csv header
+results/statistical_tests/final_2_noclick_comparisons_bh.csv,False,False,False,32.0,,False,csv header
+results/statistical_tests/final_2_noclick_excluded_group.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/final_2_noclick_metrics_summary.csv,False,False,False,48.0,,False,csv header
+results/statistical_tests/final_analysis_inventory.csv,False,False,False,108.0,,False,csv header
+results/statistical_tests/final_analysis_inventory_by_round.csv,False,False,False,6.0,,False,csv header
+results/statistical_tests/final_paper_numbers.csv,False,False,False,58.0,,False,csv header
+results/statistical_tests/final_paper_numbers_rederivation.csv,False,False,False,194.0,,False,csv header
+results/statistical_tests/final_step1_console_2026-10-14.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/final_step2_console_2026-10-14.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/final_step3_console_2026-10-14.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/final_step4_console_2026-10-14.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/final_step5_console_2026-10-14.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/leak_1a_sanity_rebuild_vs_early_outputs.csv,False,False,False,72.0,,False,csv header
+results/statistical_tests/leak_1b_provenance.csv,False,False,False,10.0,,False,csv header
+results/statistical_tests/leak_1b_riskset.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/leak_1c_reimpl_column_diffs.csv,False,False,False,62.0,,False,csv header
+results/statistical_tests/leak_1c_reimpl_rows.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/leak_1d_decode_09615_locations.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/leak_1d_decode_metrics.csv,False,False,False,32.0,,False,csv header
+results/statistical_tests/leak_1e_single_feature_metrics.csv,False,False,False,44.0,,False,csv header
+results/statistical_tests/leak_1f_nosubmission_noclick_groups.csv,False,False,False,6.0,,False,csv header
+results/statistical_tests/leak_audit_verdict.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/leak_breadth_SUMMARY.csv,False,False,False,72.0,,False,csv header
+results/statistical_tests/leak_breadth_rerun_step2_console_2026-10-13.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/leak_breadth_run_console_2026-10-13.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/oulad_fold_predictions.csv,True,False,False,216531.0,,False,csv header
+results/statistical_tests/oulad_pairwise_comparison.csv,True,False,False,28.0,,False,csv header
+results/statistical_tests/oulad_pairwise_comparison_corrected.csv,True,False,False,28.0,,False,csv header
+results/statistical_tests/oulad_subgroup_fairness.csv,True,False,False,9.0,,False,csv header
+results/statistical_tests/prereg_final_2026-10-14.md,False,True,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/prereg_leak_breadth_2026-10-13.md,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/prereg_wd_early_2026-10-13.md,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/robustness_bootstrap_d_vs_e.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/robustness_dimctrl_bootstrap.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/robustness_dimctrl_fold_metrics.csv,False,False,False,20.0,,False,csv header
+results/statistical_tests/robustness_dimctrl_mcnemar_bh.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/robustness_dimctrl_metrics_summary.csv,False,False,False,8.0,,False,csv header
+results/statistical_tests/robustness_dimctrl_oof_predictions.csv,False,False,True,103080.0,,False,csv header
+results/statistical_tests/robustness_fairness_gender_fnr.csv,False,False,False,6.0,,False,csv header
+results/statistical_tests/robustness_fairness_gender_gap_differences.csv,False,False,False,4.0,,False,csv header
+results/statistical_tests/robustness_gbm_pairwise_mcnemar_bh.csv,False,False,False,21.0,,False,csv header
+results/statistical_tests/robustness_lopo_metrics_summary.csv,False,False,False,14.0,,False,csv header
+results/statistical_tests/robustness_lopo_pairwise_mcnemar_bh.csv,False,False,False,42.0,,False,csv header
+results/statistical_tests/robustness_lopo_per_course_metrics.csv,False,False,False,308.0,,False,csv header
+results/statistical_tests/robustness_lopo_student_overlap.csv,False,False,False,7.0,,False,csv header
+results/statistical_tests/robustness_lr_pairwise_mcnemar_bh_keyaligned.csv,False,False,False,21.0,,False,csv header
+results/statistical_tests/robustness_lr_reproduction_check.csv,False,False,False,7.0,,False,csv header
+results/statistical_tests/robustness_oof_predictions_lopo.csv,False,False,True,367876.0,,False,csv header
+results/statistical_tests/robustness_oof_predictions_stratcv.csv,False,False,True,367876.0,,False,csv header
+results/statistical_tests/robustness_run_console_2026-10-13.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/robustness_stratcv_fold_metrics.csv,False,False,False,70.0,,False,csv header
+results/statistical_tests/robustness_stratcv_metrics_summary.csv,False,False,False,14.0,,False,csv header
+results/statistical_tests/wd_course_passrates.csv,False,False,False,44.0,,False,csv header
+results/statistical_tests/wd_early_run_console_2026-10-13.txt,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+results/statistical_tests/wd_lopo_comparisons_bh.csv,False,False,False,4.0,,False,csv header
+results/statistical_tests/wd_lopo_criterion_summary.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/wd_lopo_metrics_summary.csv,False,False,False,6.0,,False,csv header
+results/statistical_tests/wd_lopo_oof_predictions.csv,False,False,True,126702.0,,False,csv header
+results/statistical_tests/wd_lopo_per_course_base_vs_ctr.csv,False,False,False,44.0,,False,csv header
+results/statistical_tests/wd_lopo_per_course_fold_metrics.csv,False,False,False,132.0,,False,csv header
+results/statistical_tests/wd_lopo_per_course_summary.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/wd_sample_description.csv,False,False,False,2.0,,False,csv header
+results/statistical_tests/wd_sanity_fullsample_check.csv,False,False,False,4.0,,False,csv header
+results/statistical_tests/wd_stratcv_comparisons_bh.csv,False,False,False,12.0,,False,csv header
+results/statistical_tests/wd_stratcv_criterion_summary.csv,False,False,False,6.0,,False,csv header
+results/statistical_tests/wd_stratcv_fold_metrics.csv,False,False,False,120.0,,False,csv header
+results/statistical_tests/wd_stratcv_metrics_summary.csv,False,False,False,24.0,,False,csv header
+results/statistical_tests/wd_stratcv_oof_predictions.csv,False,False,True,506772.0,,False,csv header
+results/tables/experiment_log.csv,True,False,False,441.0,,False,csv header
+app/src/breadth_1_control.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/ci_1_course_identity_stratcv.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/ci_2_lopo_centered.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/ci_3_student_disjoint.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/ci_4_per_course_lopo.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/ci_5_keyaligned_rederivation.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/ci_common.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/construct_validity_check.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/data_cleaning_oulad.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/early_1_cutoff_stratcv.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/feature_engineering_oulad.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/final_1_attribution.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/final_2_noclick.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/final_3_numbers.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/final_3_rederive.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/final_4_inventory.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/final_5_repo_check.py,False,True,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/final_common.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/generate_figures.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/irt_rasch_assistments.py,True,True,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/leak_1_audit.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/leak_2_diagnostics.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/leak_reimpl_early_features.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/leakbreadth_common.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/robustness_1_gbm_second_family.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/robustness_2_course_level_lopo.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/robustness_3_bootstrap_ci.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/robustness_4_dimensionality_control.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/robustness_5_fairness_gender.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/robustness_common.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/run_course_identity.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/run_leak_breadth.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/run_pipeline.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/run_robustness.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/run_wd_early.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/statistics_tests_oulad.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/statistics_tests_oulad_keyaligned.patch,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/subgroup_fairness_oulad.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/train_evaluate_oulad.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/utils.py,True,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/wd_0_sanity_fullsample.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/wd_1_withdrawn_excluded.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/wd_early_2_lopo.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)
+app/src/wdearly_common.py,False,False,False,,,False,text search for 'user_id' (code/text mentions included)

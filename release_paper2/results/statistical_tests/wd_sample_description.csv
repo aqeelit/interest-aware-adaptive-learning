@@ -1,0 +1,5 @@
+# Interest centering: within each code_module+code_presentation, subtract the mean over that presentation's students in the analysed sample (features only, no labels; includes test-fold rows).
+# Withdrawn excluded; target Pass/Distinction=1, Fail=0. Stratified 5-fold, seed 42.
+setting,cutoff_days,sens,n_studentinfo_rows,n_excluded_withdrawn,n_sample_before_features,n_dropped_by_feature_inner_join,n_rows_used,pass_rate,n_courses
+WD,,False,32593,10156,22437,1320,21117,0.7283231519628736,22
+WD,,True,32593,10156,22437,1323,21114,0.7282845505351899,22

@@ -1,0 +1,8 @@
+# EXPLORATORY / POST HOC (prereg_final_2026-10-14.md); hypothesis-generating only.
+# Read-only; the patch was NOT applied. Tracked = present at HEAD (= remote main).
+file,tracked,reason
+app/src/statistics_tests_oulad.py,True,the patch modifies this script (row_index -> KEY alignment)
+results/statistical_tests/oulad_pairwise_comparison.csv,True,written by app/src/statistics_tests_oulad.py; values would be recomputed on KEY-aligned pairs
+results/statistical_tests/oulad_pairwise_comparison_corrected.csv,True,written by app/src/statistics_tests_oulad.py; values would be recomputed on KEY-aligned pairs
+app/src/generate_figures.py,True,reads oulad_pairwise_comparison.csv
+results/figures/model_comparison_bars.png,True,"written by app/src/generate_figures.py:fig1_model_comparison_bars, which reads oulad_pairwise_comparison.csv"

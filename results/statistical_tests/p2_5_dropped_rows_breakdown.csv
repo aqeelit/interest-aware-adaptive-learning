@@ -1,0 +1,13 @@
+# EXPLORATORY / POST HOC (p2_prereg_2026-10-14.md); hypothesis-generating only.
+# FULL row set = target inner-joined with B, C and D feature tables (ci_common.load_base).
+category,n
+target rows (cleaned studentInfo),32593
+"in D/E row set (B, C and interest present)",25770
+dropped,6823
+dropped: no B (no scored assessment) but has VLE,3458
+dropped: no VLE record (no C/D) but has B,50
+dropped: neither B nor VLE,3315
+check: same rows in C and interest table (1 = yes),1
+dropped with final_result = Fail,1315
+dropped with final_result = Pass,5
+dropped with final_result = Withdrawn,5503

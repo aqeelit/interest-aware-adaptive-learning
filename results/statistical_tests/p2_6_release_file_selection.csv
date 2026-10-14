@@ -1,0 +1,249 @@
+# Paper 2 Step 6: which scripts / result files were copied into release_paper2/ and why others not.
+kind,file,action
+script,breadth_1_control.py,copied
+script,ci_1_course_identity_stratcv.py,copied
+script,ci_2_lopo_centered.py,copied
+script,ci_3_student_disjoint.py,copied
+script,ci_4_per_course_lopo.py,copied
+script,ci_5_keyaligned_rederivation.py,copied
+script,ci_common.py,copied
+script,construct_validity_check.py,excluded (not needed for these rounds)
+script,data_cleaning_oulad.py,copied
+script,early_1_cutoff_stratcv.py,copied
+script,feature_engineering_oulad.py,copied
+script,final_1_attribution.py,copied
+script,final_2_noclick.py,copied
+script,final_3_numbers.py,copied
+script,final_3_rederive.py,copied
+script,final_4_inventory.py,copied
+script,final_5_repo_check.py,copied
+script,final_common.py,copied
+script,generate_figures.py,excluded (not needed for these rounds)
+script,irt_rasch_assistments.py,excluded (not needed for these rounds)
+script,leak_1_audit.py,copied
+script,leak_2_diagnostics.py,copied
+script,leak_reimpl_early_features.py,copied
+script,leakbreadth_common.py,copied
+script,ml_1_within_between.py,copied
+script,ml_2_lomo.py,copied
+script,ml_3_module_replication.py,copied
+script,ml_common.py,copied
+script,p2_1_zbase.py,copied
+script,p2_2_numbers.py,copied
+script,p2_3_tables_figures.py,copied
+script,p2_4_references.py,copied
+script,p2_5_facts.py,copied
+script,p2_6_release.py,excluded (not needed for these rounds)
+script,p2_common.py,copied
+script,p2_rederive.py,copied
+script,robustness_1_gbm_second_family.py,copied
+script,robustness_2_course_level_lopo.py,copied
+script,robustness_3_bootstrap_ci.py,copied
+script,robustness_4_dimensionality_control.py,copied
+script,robustness_5_fairness_gender.py,copied
+script,robustness_common.py,copied
+script,run_course_identity.py,copied
+script,run_leak_breadth.py,copied
+script,run_ml.py,copied
+script,run_pipeline.py,excluded (not needed for these rounds)
+script,run_robustness.py,copied
+script,run_wd_early.py,copied
+script,statistics_tests_oulad.py,copied
+script,subgroup_fairness_oulad.py,excluded (not needed for these rounds)
+script,train_evaluate_oulad.py,copied
+script,utils.py,copied
+script,wd_0_sanity_fullsample.py,copied
+script,wd_1_withdrawn_excluded.py,copied
+script,wd_early_2_lopo.py,copied
+script,wdearly_common.py,copied
+result,assistments_item_difficulty.csv,excluded (not part of these rounds / type)
+result,assistments_person_ability.csv,excluded (not part of these rounds / type)
+result,assistments_person_ability_deidentified.csv,excluded (not part of these rounds / type)
+result,assistments_rasch_fit.json,excluded (not part of these rounds / type)
+result,breadth_full21_reproduction_check.csv,copied
+result,breadth_lopo_comparisons_bh.csv,copied
+result,breadth_lopo_metrics_summary.csv,copied
+result,breadth_lopo_oof_predictions.csv,excluded (per-student predictions or console log)
+result,breadth_lopo_per_course.csv,copied
+result,breadth_lopo_per_course_fold_metrics.csv,copied
+result,breadth_lopo_per_course_summary.csv,copied
+result,breadth_stratcv_comparisons_bh.csv,copied
+result,breadth_stratcv_fold_metrics.csv,copied
+result,breadth_stratcv_metrics_summary.csv,copied
+result,breadth_stratcv_oof_predictions.csv,excluded (per-student predictions or console log)
+result,ci1_stratcv_comparisons_bh.csv,copied
+result,ci1_stratcv_fold_metrics.csv,copied
+result,ci1_stratcv_metrics_summary.csv,copied
+result,ci1_stratcv_oof_predictions.csv,excluded (per-student predictions or console log)
+result,ci2_lopo_comparisons_bh.csv,copied
+result,ci2_lopo_metrics_summary.csv,copied
+result,ci2_lopo_oof_predictions.csv,excluded (per-student predictions or console log)
+result,ci2_lopo_per_course_metrics.csv,copied
+result,ci2_lopo_rerun_check.csv,copied
+result,ci3_studentdisjoint_comparisons_bh.csv,copied
+result,ci3_studentdisjoint_fold_metrics.csv,copied
+result,ci3_studentdisjoint_metrics_summary.csv,copied
+result,ci3_studentdisjoint_oof_predictions.csv,excluded (per-student predictions or console log)
+result,ci4_lopo_per_course_d_vs_e.csv,copied
+result,ci4_lopo_per_course_summary.csv,copied
+result,ci5_keyaligned_all28_pairs.csv,copied
+result,ci5_manuscript_cited_old_vs_new.csv,copied
+result,ci5_significance_count_old_vs_new.csv,copied
+result,ci_run_console_2026-10-13.txt,excluded (not part of these rounds / type)
+result,construct_validity_check.json,excluded (not part of these rounds / type)
+result,early_course_passrates.csv,copied
+result,early_lopo_comparisons_bh.csv,copied
+result,early_lopo_criterion_summary.csv,copied
+result,early_lopo_metrics_summary.csv,copied
+result,early_lopo_oof_predictions.csv,excluded (per-student predictions or console log)
+result,early_lopo_per_course_base_vs_ctr.csv,copied
+result,early_lopo_per_course_fold_metrics.csv,copied
+result,early_lopo_per_course_summary.csv,copied
+result,early_sample_description.csv,copied
+result,early_stratcv_comparisons_bh.csv,copied
+result,early_stratcv_criterion_summary.csv,copied
+result,early_stratcv_fold_metrics.csv,copied
+result,early_stratcv_metrics_summary.csv,copied
+result,early_stratcv_oof_predictions.csv,excluded (per-student predictions or console log)
+result,final_1_attribution_metrics_summary.csv,copied
+result,final_1_reproduction_check.csv,copied
+result,final_1ab_attribution_comparisons_bh.csv,copied
+result,final_1c_stability.csv,copied
+result,final_1d_rank_agreement.csv,copied
+result,final_1e_unit_descriptives.csv,copied
+result,final_2_noclick_comparisons_bh.csv,copied
+result,final_2_noclick_excluded_group.csv,copied
+result,final_2_noclick_metrics_summary.csv,copied
+result,final_5_patch_affected_files.csv,copied
+result,final_5_publication_scan.csv,copied
+result,final_analysis_inventory.csv,copied
+result,final_analysis_inventory_by_round.csv,copied
+result,final_paper_numbers.csv,copied
+result,final_paper_numbers_rederivation.csv,copied
+result,final_step1_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,final_step2_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,final_step3_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,final_step4_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,final_step5_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,leak_1a_sanity_rebuild_vs_early_outputs.csv,copied
+result,leak_1b_provenance.csv,copied
+result,leak_1b_riskset.csv,copied
+result,leak_1c_reimpl_column_diffs.csv,copied
+result,leak_1c_reimpl_rows.csv,copied
+result,leak_1d_decode_09615_locations.csv,copied
+result,leak_1d_decode_metrics.csv,copied
+result,leak_1e_single_feature_metrics.csv,copied
+result,leak_1f_nosubmission_noclick_groups.csv,copied
+result,leak_audit_verdict.csv,copied
+result,leak_breadth_SUMMARY.csv,copied
+result,leak_breadth_rerun_step2_console_2026-10-13.txt,excluded (per-student predictions or console log)
+result,leak_breadth_run_console_2026-10-13.txt,excluded (per-student predictions or console log)
+result,ml_1a_icc.csv,copied
+result,ml_1b_comparisons_bh.csv,copied
+result,ml_1b_fold_metrics.csv,copied
+result,ml_1b_metrics_summary.csv,copied
+result,ml_1b_oof_predictions.csv,excluded (per-student predictions or console log)
+result,ml_1b_reproduction_check.csv,copied
+result,ml_2_lomo_comparisons_bh.csv,copied
+result,ml_2_lomo_fold_metrics.csv,copied
+result,ml_2_lomo_fold_rows_removed.csv,copied
+result,ml_2_lomo_metrics_summary.csv,copied
+result,ml_2_lomo_oof_predictions.csv,excluded (per-student predictions or console log)
+result,ml_2_lomo_per_module.csv,copied
+result,ml_3_module_comparisons_bh.csv,copied
+result,ml_3_module_fold_metrics.csv,copied
+result,ml_3_module_metrics_summary.csv,copied
+result,ml_3_module_n.csv,copied
+result,ml_3_module_oof_predictions.csv,excluded (per-student predictions or console log)
+result,ml_3_random_effects.csv,copied
+result,ml_3_replication_labels.csv,copied
+result,ml_run_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,oulad_fold_predictions.csv,excluded (not part of these rounds / type)
+result,oulad_pairwise_comparison.csv,excluded (not part of these rounds / type)
+result,oulad_pairwise_comparison_corrected.csv,excluded (not part of these rounds / type)
+result,oulad_subgroup_fairness.csv,excluded (not part of these rounds / type)
+result,p2_1_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,p2_1_zbase_comparisons_bh.csv,copied
+result,p2_1_zbase_fold_metrics.csv,copied
+result,p2_1_zbase_metrics_summary.csv,copied
+result,p2_1_zbase_oof_predictions.csv,excluded (per-student predictions or console log)
+result,p2_1_zbase_reproduction_check.csv,copied
+result,p2_2_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,p2_3_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,p2_3b_figures_rerun_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,p2_4_console_2026-10-14.txt,excluded (per-student predictions or console log)
+result,p2_5_dropped_rows_breakdown.csv,copied
+result,p2_5_software_versions.csv,copied
+result,p2_F1_accuracy_by_arm.png,copied
+result,p2_F1_accuracy_by_arm.svg,copied
+result,p2_F1_data.csv,copied
+result,p2_F2_data.csv,copied
+result,p2_F2_icc_by_feature.png,copied
+result,p2_F2_icc_by_feature.svg,copied
+result,p2_F3_data.csv,copied
+result,p2_F3_module_forest.png,copied
+result,p2_F3_module_forest.svg,copied
+result,p2_F4_data.csv,copied
+result,p2_F4_early_delta_acc.png,copied
+result,p2_F4_early_delta_acc.svg,copied
+result,p2_T1_data_settings.csv,copied
+result,p2_T1_data_settings.txt,copied
+result,p2_T2_full_main.csv,copied
+result,p2_T2_full_main.txt,copied
+result,p2_T3_within_between.csv,copied
+result,p2_T3_within_between.txt,copied
+result,p2_T4_early_primary.csv,copied
+result,p2_T4_early_primary.txt,copied
+result,p2_T5_module_replication.csv,copied
+result,p2_T5_module_replication.txt,copied
+result,p2_T6_fnr_gender.csv,copied
+result,p2_T6_fnr_gender.txt,copied
+result,p2_alt_texts.md,copied
+result,p2_analysis_inventory.csv,copied
+result,p2_methods_facts.md,copied
+result,p2_numbers.csv,copied
+result,p2_numbers_rederivation.csv,copied
+result,p2_prereg_2026-10-14.md,copied
+result,p2_references.bib,copied
+result,p2_references_raw.json,copied
+result,p2_references_verified.csv,copied
+result,prereg_final_2026-10-14.md,copied
+result,prereg_leak_breadth_2026-10-13.md,copied
+result,prereg_ml_2026-10-14.md,copied
+result,prereg_wd_early_2026-10-13.md,copied
+result,robustness_bootstrap_d_vs_e.csv,copied
+result,robustness_dimctrl_bootstrap.csv,copied
+result,robustness_dimctrl_fold_metrics.csv,copied
+result,robustness_dimctrl_mcnemar_bh.csv,copied
+result,robustness_dimctrl_metrics_summary.csv,copied
+result,robustness_dimctrl_oof_predictions.csv,excluded (per-student predictions or console log)
+result,robustness_fairness_gender_fnr.csv,copied
+result,robustness_fairness_gender_gap_differences.csv,copied
+result,robustness_gbm_pairwise_mcnemar_bh.csv,copied
+result,robustness_lopo_metrics_summary.csv,copied
+result,robustness_lopo_pairwise_mcnemar_bh.csv,copied
+result,robustness_lopo_per_course_metrics.csv,copied
+result,robustness_lopo_student_overlap.csv,copied
+result,robustness_lr_pairwise_mcnemar_bh_keyaligned.csv,copied
+result,robustness_lr_reproduction_check.csv,copied
+result,robustness_oof_predictions_lopo.csv,excluded (per-student predictions or console log)
+result,robustness_oof_predictions_stratcv.csv,excluded (per-student predictions or console log)
+result,robustness_run_console_2026-10-13.txt,excluded (per-student predictions or console log)
+result,robustness_stratcv_fold_metrics.csv,copied
+result,robustness_stratcv_metrics_summary.csv,copied
+result,wd_course_passrates.csv,copied
+result,wd_early_run_console_2026-10-13.txt,excluded (per-student predictions or console log)
+result,wd_lopo_comparisons_bh.csv,copied
+result,wd_lopo_criterion_summary.csv,copied
+result,wd_lopo_metrics_summary.csv,copied
+result,wd_lopo_oof_predictions.csv,excluded (per-student predictions or console log)
+result,wd_lopo_per_course_base_vs_ctr.csv,copied
+result,wd_lopo_per_course_fold_metrics.csv,copied
+result,wd_lopo_per_course_summary.csv,copied
+result,wd_sample_description.csv,copied
+result,wd_sanity_fullsample_check.csv,copied
+result,wd_stratcv_comparisons_bh.csv,copied
+result,wd_stratcv_criterion_summary.csv,copied
+result,wd_stratcv_fold_metrics.csv,copied
+result,wd_stratcv_metrics_summary.csv,copied
+result,wd_stratcv_oof_predictions.csv,excluded (per-student predictions or console log)

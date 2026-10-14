@@ -1,0 +1,3 @@
+cutoff_days,rule,n_studentinfo_rows,n_missing_date_unregistration,n_missing_date_unregistration_final_withdrawn,n_excluded,n_risk_set,n_risk_set_pipeline_frame,n_Pass,n_Distinction,n_Fail,n_Withdrawn
+28,exclude if date_unregistration is non-missing and <= t (pandas: NaN <= t is False),32593,22521,93,5055,27538,27538,12361,3024,7044,5109
+56,exclude if date_unregistration is non-missing and <= t (pandas: NaN <= t is False),32593,22521,93,6071,26522,26522,12361,3024,7044,4093

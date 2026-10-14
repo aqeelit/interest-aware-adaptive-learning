@@ -1,0 +1,27 @@
+# Identity scan BEFORE fixes (case-insensitive patterns incl. '@' and local paths; file metadata).
+scope,file,where,line,pattern,kind,context
+release_paper2,release_paper2/app/src/p2_4_references.py,content,150,@,at-sign (non-email),"return f""@{typ}{{{key},\n{body}\n}}\n"""
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,3,@,at-sign (non-email),"@misc{le2026,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,12,@,at-sign (non-email),"@article{kuzilek2017,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,22,@,at-sign (non-email),"@article{gasevic2016,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,32,@,at-sign (non-email),"@article{conijn2017,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,43,@,at-sign (non-email),"@article{kleter2024,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,53,@,at-sign (non-email),"@article{cui2020,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,64,@,at-sign (non-email),"@article{schwerter2026,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,76,@,at-sign (non-email),"@article{waheed2020,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,86,@,at-sign (non-email),"@article{alzawqari2022,"
+release_paper2,release_paper2/results/statistical_tests/p2_references.bib,content,96,@,at-sign (non-email),"@article{kapoor2023,"
+release_paper2,release_paper2/results/statistical_tests/prereg_final_2026-10-14.md,content,5,aqeel,name,(Dr. Aqeel Mohammed Ali Hussein). This file is not edited after it is written; its
+release_paper2,release_paper2/results/statistical_tests/prereg_final_2026-10-14.md,content,5,hussein,name,(Dr. Aqeel Mohammed Ali Hussein). This file is not edited after it is written; its
+release_paper2,release_paper2/results/statistical_tests/prereg_ml_2026-10-14.md,content,5,aqeel,name,(Dr. Aqeel Mohammed Ali Hussein). This file is not edited after it is written; its SHA-256 is
+release_paper2,release_paper2/results/statistical_tests/prereg_ml_2026-10-14.md,content,5,hussein,name,(Dr. Aqeel Mohammed Ali Hussein). This file is not edited after it is written; its SHA-256 is
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,3,@,at-sign (non-email),"@misc{le2026,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,12,@,at-sign (non-email),"@article{kuzilek2017,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,22,@,at-sign (non-email),"@article{gasevic2016,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,32,@,at-sign (non-email),"@article{conijn2017,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,43,@,at-sign (non-email),"@article{kleter2024,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,53,@,at-sign (non-email),"@article{cui2020,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,64,@,at-sign (non-email),"@article{schwerter2026,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,76,@,at-sign (non-email),"@article{waheed2020,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,86,@,at-sign (non-email),"@article{alzawqari2022,"
+manuscript-facing p2_ (not modified),results/statistical_tests/p2_references.bib,content,96,@,at-sign (non-email),"@article{kapoor2023,"

@@ -1,0 +1,8 @@
+# Pre-registered criterion (prereg_wd_early_2026-10-13.md).
+setting,model_a,model_b,criterion_met
+WD,E_course,D_course,False
+WD,E_course,E_course_ctr,False
+WD,E_course_ctrshuf,E_course_ctr,False
+WD_sens,Esens_course,Dsens_course,False
+WD_sens,Esens_course,Esens_course_ctr,False
+WD_sens,Esens_course_ctrshuf,Esens_course_ctr,True

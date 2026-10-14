@@ -1,0 +1,11 @@
+# EXPLORATORY / POST HOC (prereg_final_2026-10-14.md); hypothesis-generating only.
+# base_course and full21_ctr compared with breadth_stratcv_oof_predictions.csv (VLEonly).
+setting,feature_family,family,model,n_new,n_breadth_round,n_matched,y_pred_identical,max_abs_prob_diff
+EARLY_t28,VLEonly,LR,base_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t28,VLEonly,GBM,base_course,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t28,VLEonly,LR,full21_ctr,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t28,VLEonly,GBM,full21_ctr,27538,27538,27538,27538,1.1102230246251565e-16
+EARLY_t56,VLEonly,LR,base_course,26522,26522,26522,26522,1.1102230246251565e-16
+EARLY_t56,VLEonly,GBM,base_course,26522,26522,26522,26522,1.1102230246251565e-16
+EARLY_t56,VLEonly,LR,full21_ctr,26522,26522,26522,26522,1.1102230246251565e-16
+EARLY_t56,VLEonly,GBM,full21_ctr,26522,26522,26522,26522,1.1102230246251565e-16

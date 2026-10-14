@@ -1,0 +1,14 @@
+# Pre-registered criterion (prereg_wd_early_2026-10-13.md).
+setting,model_a,model_b,criterion_met
+EARLY_t28_VLEonly,C_t28_course,CI_t28_course,True
+EARLY_t28_VLEonly,C_t28_course,C_t28_course_ctr,True
+EARLY_t28_VLEonly,C_t28_course_ctrshuf,C_t28_course_ctr,True
+EARLY_t28_withAssess,E_t28_course,D_t28_course,True
+EARLY_t28_withAssess,E_t28_course,E_t28_course_ctr,True
+EARLY_t28_withAssess,E_t28_course_ctrshuf,E_t28_course_ctr,True
+EARLY_t56_VLEonly,C_t56_course,CI_t56_course,True
+EARLY_t56_VLEonly,C_t56_course,C_t56_course_ctr,True
+EARLY_t56_VLEonly,C_t56_course_ctrshuf,C_t56_course_ctr,True
+EARLY_t56_withAssess,E_t56_course,D_t56_course,False
+EARLY_t56_withAssess,E_t56_course,E_t56_course_ctr,False
+EARLY_t56_withAssess,E_t56_course_ctrshuf,E_t56_course_ctr,True

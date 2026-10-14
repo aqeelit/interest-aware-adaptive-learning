@@ -1,0 +1,10 @@
+# Pre-registered criterion (prereg_wd_early_2026-10-13.md).
+setting,model_a,model_b,criterion_met
+EARLY_t28_VLEonly,C_t28,C_t28_ctr,True
+EARLY_t28_VLEonly,C_t28_ctrshuf,C_t28_ctr,False
+EARLY_t28_withAssess,E_t28,E_t28_ctr,True
+EARLY_t28_withAssess,E_t28_ctrshuf,E_t28_ctr,True
+EARLY_t56_VLEonly,C_t56,C_t56_ctr,True
+EARLY_t56_VLEonly,C_t56_ctrshuf,C_t56_ctr,True
+EARLY_t56_withAssess,E_t56,E_t56_ctr,True
+EARLY_t56_withAssess,E_t56_ctrshuf,E_t56_ctr,True

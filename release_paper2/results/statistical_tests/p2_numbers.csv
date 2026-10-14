@@ -1,0 +1,176 @@
+# EXPLORATORY / POST HOC (p2_prereg_2026-10-14.md); hypothesis-generating only.
+# Values only from key-aligned outputs; oulad_pairwise_comparison*.csv never read.
+# source_row = 1-based physical line in source_file (comment/header lines counted); 'a; b' = value file; p_bh file.
+# rederived_ok = all re-derived components within 1e-9 (N exact); detail in p2_numbers_rederivation.csv. setting column = analysed setting label.
+claim_id,claim_text,value,ci_low,ci_high,p_bh,N,model_family,scheme,setting,source_file,source_row,rederived_ok
+P01,N analysed (FULL); dropped rows in column n_dropped_rows of the source,25770.0,,,,25770,n/a,stratified_5fold,FULL,ml_1b_metrics_summary.csv,6,True
+P01,N analysed (EARLY_t28); dropped rows in column n_dropped_rows of the source,27538.0,,,,27538,n/a,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,16,True
+P01,N analysed (EARLY_t56); dropped rows in column n_dropped_rows of the source,26522.0,,,,26522,n/a,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,26,True
+P02,"FULL pooled accuracy, arm E (stratified 5-fold)",0.8561893674815677,,,,25770,LR,stratified_5fold,FULL,robustness_stratcv_metrics_summary.csv,10,True
+P02,"FULL pooled accuracy, arm E (stratified 5-fold)",0.8900271633682577,,,,25770,GBM,stratified_5fold,FULL,robustness_stratcv_metrics_summary.csv,11,True
+P02,"FULL pooled accuracy, arm D (stratified 5-fold)",0.882266201008925,,,,25770,LR,stratified_5fold,FULL,robustness_stratcv_metrics_summary.csv,8,True
+P02,"FULL pooled accuracy, arm D (stratified 5-fold)",0.9166084594489716,,,,25770,GBM,stratified_5fold,FULL,robustness_stratcv_metrics_summary.csv,9,True
+P02,"FULL pooled accuracy, arm course_only (stratified 5-fold)",0.5990686845168801,,,,25770,LR,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,4,True
+P02,"FULL pooled accuracy, arm course_only (stratified 5-fold)",0.5985254171517268,,,,25770,GBM,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,5,True
+P02,"FULL pooled accuracy, arm E_course (stratified 5-fold)",0.906674427629026,,,,25770,LR,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,6,True
+P02,"FULL pooled accuracy, arm E_course (stratified 5-fold)",0.918859138533178,,,,25770,GBM,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,7,True
+P02,"FULL pooled accuracy, arm D_course (stratified 5-fold)",0.906907256499806,,,,25770,LR,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,8,True
+P02,"FULL pooled accuracy, arm D_course (stratified 5-fold)",0.9221963523476912,,,,25770,GBM,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,9,True
+P02,"FULL pooled accuracy, arm E_course_ctr (stratified 5-fold)",0.906674427629026,,,,25770,LR,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,10,True
+P02,"FULL pooled accuracy, arm E_course_ctr (stratified 5-fold)",0.920838183934808,,,,25770,GBM,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,11,True
+P02,"FULL pooled accuracy, arm E_course_ctrshuf (stratified 5-fold)",0.9062863795110594,,,,25770,LR,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,12,True
+P02,"FULL pooled accuracy, arm E_course_ctrshuf (stratified 5-fold)",0.9183546759798216,,,,25770,GBM,stratified_5fold,FULL,ci1_stratcv_metrics_summary.csv,13,True
+P02,"FULL pooled accuracy, arm E_noise21 (stratified 5-fold)",0.8555296856810245,,,,25770,LR,stratified_5fold,FULL,robustness_dimctrl_metrics_summary.csv,6,True
+P02,"FULL pooled accuracy, arm E_noise21 (stratified 5-fold)",0.8866899495537447,,,,25770,GBM,stratified_5fold,FULL,robustness_dimctrl_metrics_summary.csv,7,True
+P02,"FULL pooled accuracy, arm E_shufint (stratified 5-fold)",0.8748156771439658,,,,25770,LR,stratified_5fold,FULL,robustness_dimctrl_metrics_summary.csv,8,True
+P02,"FULL pooled accuracy, arm E_shufint (stratified 5-fold)",0.9119906868451688,,,,25770,GBM,stratified_5fold,FULL,robustness_dimctrl_metrics_summary.csv,9,True
+P03,FULL D minus E accuracy (stratified 5-fold); McNemar BH over 21 pairs,0.0260768335273573,0.0227078542935888,0.0292451561171234,8.884721571417407e-57,25770,LR,stratified_5fold,FULL,robustness_bootstrap_d_vs_e.csv; robustness_lr_pairwise_mcnemar_bh_keyaligned.csv,2; 17,True
+P03,FULL D minus E accuracy (stratified 5-fold); McNemar BH over 21 pairs,0.0265812960807139,0.0237118519927145,0.0295424421505553,4.085886759701083e-70,25770,GBM,stratified_5fold,FULL,robustness_bootstrap_d_vs_e.csv; robustness_gbm_pairwise_mcnemar_bh.csv,4; 17,True
+P04,FULL control E_shufint -> D accuracy gain; BH over 8,0.0074505238649592,0.0045110998659382,0.0104270641953016,3.526386105587842e-06,25770,LR,stratified_5fold,FULL,robustness_dimctrl_bootstrap.csv; robustness_dimctrl_mcnemar_bh.csv,3; 3,True
+P04,FULL control E_shufint -> D accuracy gain; BH over 8,0.0046177726038028,0.0020611801253361,0.0070289766499045,0.0002672170425622,25770,GBM,stratified_5fold,FULL,robustness_dimctrl_bootstrap.csv; robustness_dimctrl_mcnemar_bh.csv,7; 7,True
+P04,FULL control E_noise21 -> D accuracy gain; BH over 8,0.0267365153279005,0.023464991580631,0.0299157126383077,1.0709825136065071e-58,25770,LR,stratified_5fold,FULL,robustness_dimctrl_bootstrap.csv; robustness_dimctrl_mcnemar_bh.csv,2; 2,True
+P04,FULL control E_noise21 -> D accuracy gain; BH over 8,0.0299185098952269,0.0270047301011456,0.0328173246003823,2.5366558667218193e-81,25770,GBM,stratified_5fold,FULL,robustness_dimctrl_bootstrap.csv; robustness_dimctrl_mcnemar_bh.csv,6; 6,True
+P05,Within/between arm base: pooled accuracy,0.8561893674815677,,,,25770,LR,stratified_5fold,FULL,ml_1b_metrics_summary.csv,6,True
+P05,Within/between arm base: pooled accuracy,0.8900271633682577,,,,25770,GBM,stratified_5fold,FULL,ml_1b_metrics_summary.csv,7,True
+P05,Within/between arm base_course: pooled accuracy,0.906674427629026,,,,25770,LR,stratified_5fold,FULL,ml_1b_metrics_summary.csv,8,True
+P05,Within/between arm base_course: pooled accuracy,0.918859138533178,,,,25770,GBM,stratified_5fold,FULL,ml_1b_metrics_summary.csv,9,True
+P05,Within/between arm W: pooled accuracy,0.8687233216918898,,,,25770,LR,stratified_5fold,FULL,ml_1b_metrics_summary.csv,10,True
+P05,Within/between arm W: pooled accuracy,0.9209157935584013,,,,25770,GBM,stratified_5fold,FULL,ml_1b_metrics_summary.csv,11,True
+P05,Within/between arm M: pooled accuracy,0.9063639891346528,,,,25770,LR,stratified_5fold,FULL,ml_1b_metrics_summary.csv,12,True
+P05,Within/between arm M: pooled accuracy,0.919441210710128,,,,25770,GBM,stratified_5fold,FULL,ml_1b_metrics_summary.csv,13,True
+P05,Within/between arm WB: pooled accuracy,0.9061699650756694,,,,25770,LR,stratified_5fold,FULL,ml_1b_metrics_summary.csv,14,True
+P05,Within/between arm WB: pooled accuracy,0.9231664726426076,,,,25770,GBM,stratified_5fold,FULL,ml_1b_metrics_summary.csv,15,True
+P05,Within/between arm base: pooled accuracy,0.6242283390224417,,,,27538,LR,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,16,True
+P05,Within/between arm base: pooled accuracy,0.622303725760767,,,,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,17,True
+P05,Within/between arm base_course: pooled accuracy,0.6647904713486819,,,,27538,LR,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,18,True
+P05,Within/between arm base_course: pooled accuracy,0.670382743844869,,,,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,19,True
+P05,Within/between arm W: pooled accuracy,0.6521897015033772,,,,27538,LR,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,20,True
+P05,Within/between arm W: pooled accuracy,0.6769554797007771,,,,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,21,True
+P05,Within/between arm M: pooled accuracy,0.6654078001307284,,,,27538,LR,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,22,True
+P05,Within/between arm M: pooled accuracy,0.6702011765560316,,,,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,23,True
+P05,Within/between arm WB: pooled accuracy,0.6738325223327766,,,,27538,LR,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,24,True
+P05,Within/between arm WB: pooled accuracy,0.6781901372648703,,,,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_metrics_summary.csv,25,True
+P05,Within/between arm base: pooled accuracy,0.6510821205037327,,,,26522,LR,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,26,True
+P05,Within/between arm base: pooled accuracy,0.6565115752959807,,,,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,27,True
+P05,Within/between arm base_course: pooled accuracy,0.6892014176909735,,,,26522,LR,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,28,True
+P05,Within/between arm base_course: pooled accuracy,0.6915013950682453,,,,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,29,True
+P05,Within/between arm W: pooled accuracy,0.6807555991252545,,,,26522,LR,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,30,True
+P05,Within/between arm W: pooled accuracy,0.7042455320111606,,,,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,31,True
+P05,Within/between arm M: pooled accuracy,0.6889751904079632,,,,26522,LR,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,32,True
+P05,Within/between arm M: pooled accuracy,0.6921800769172762,,,,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,33,True
+P05,Within/between arm WB: pooled accuracy,0.7028127592187617,,,,26522,LR,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,34,True
+P05,Within/between arm WB: pooled accuracy,0.7072618957846316,,,,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_metrics_summary.csv,35,True
+P06,Within/between base -> W accuracy difference; BH over 3,0.0125339542103221,0.0098955159389901,0.0148244418116925,1.7989464192408008e-22,25770,LR,stratified_5fold,FULL,ml_1b_comparisons_bh.csv,8,True
+P06,Within/between base -> M accuracy difference; BH over 3,0.0501746216530849,0.0461577070479677,0.0539655981481344,1.391855102897359e-138,25770,LR,stratified_5fold,FULL,ml_1b_comparisons_bh.csv,9,True
+P06,Within/between M -> WB accuracy difference; BH over 3,-0.0001940240589832,-0.0017834815310262,0.0014776348683313,0.846863564559653,25770,LR,stratified_5fold,FULL,ml_1b_comparisons_bh.csv,10,True
+P06,Within/between base -> W accuracy difference; BH over 3,0.0308886301901435,0.0277828504102086,0.0339740729193111,9.756186306115817e-86,25770,GBM,stratified_5fold,FULL,ml_1b_comparisons_bh.csv,11,True
+P06,Within/between base -> M accuracy difference; BH over 3,0.0294140473418703,0.0264939905137968,0.0325800205666382,2.7413094874233038e-80,25770,GBM,stratified_5fold,FULL,ml_1b_comparisons_bh.csv,12,True
+P06,Within/between M -> WB accuracy difference; BH over 3,0.0037252619324795,0.0018602157796067,0.0055279896161355,0.0001023977667532,25770,GBM,stratified_5fold,FULL,ml_1b_comparisons_bh.csv,13,True
+P06,Within/between base -> W accuracy difference; BH over 3,0.0279613624809355,0.0226889842487714,0.0326266746568605,2.4466922189098835e-28,27538,LR,stratified_5fold,EARLY_t28,ml_1b_comparisons_bh.csv,14,True
+P06,Within/between base -> M accuracy difference; BH over 3,0.0411794611082867,0.0352083478106831,0.0467783350048775,2.140019268160392e-39,27538,LR,stratified_5fold,EARLY_t28,ml_1b_comparisons_bh.csv,15,True
+P06,Within/between M -> WB accuracy difference; BH over 3,0.0084247222020481,0.0046259493701735,0.0120762119733863,7.502941083991638e-06,27538,LR,stratified_5fold,EARLY_t28,ml_1b_comparisons_bh.csv,16,True
+P06,Within/between base -> W accuracy difference; BH over 3,0.05465175394001,0.0487866236580723,0.060203962882938,2.3999020666802663e-73,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_comparisons_bh.csv,17,True
+P06,Within/between base -> M accuracy difference; BH over 3,0.0478974507952646,0.0424870662083448,0.0531716832814162,3.3872643550061296e-59,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_comparisons_bh.csv,18,True
+P06,Within/between M -> WB accuracy difference; BH over 3,0.0079889607088387,0.0040001788381663,0.0120560347544805,4.542611398586785e-05,27538,GBM,stratified_5fold,EARLY_t28,ml_1b_comparisons_bh.csv,19,True
+P06,Within/between base -> W accuracy difference; BH over 3,0.0296734786215218,0.0251593703566517,0.0346169271518202,1.1425242696407665e-33,26522,LR,stratified_5fold,EARLY_t56,ml_1b_comparisons_bh.csv,20,True
+P06,Within/between base -> M accuracy difference; BH over 3,0.0378930699042304,0.0322053309096871,0.0438209528757554,4.210119292206272e-36,26522,LR,stratified_5fold,EARLY_t56,ml_1b_comparisons_bh.csv,21,True
+P06,Within/between M -> WB accuracy difference; BH over 3,0.0138375688107985,0.0096362765362728,0.0177426841162061,1.0853838189139392e-12,26522,LR,stratified_5fold,EARLY_t56,ml_1b_comparisons_bh.csv,22,True
+P06,Within/between base -> W accuracy difference; BH over 3,0.0477339567151798,0.0418106436076656,0.0533558120761202,1.8920611445827067e-62,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_comparisons_bh.csv,23,True
+P06,Within/between base -> M accuracy difference; BH over 3,0.0356685016212955,0.0303645736733787,0.0414407650869499,5.980284943314456e-37,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_comparisons_bh.csv,24,True
+P06,Within/between M -> WB accuracy difference; BH over 3,0.0150818188673553,0.0110292915290475,0.0190124752590466,4.7833386451402346e-14,26522,GBM,stratified_5fold,EARLY_t56,ml_1b_comparisons_bh.csv,25,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,0.009150991357397,0.005385570707466,0.0127466416691619,5.328053691265459e-06,27538,LR,stratified_5fold,EARLY_t28_VLEonly,leak_breadth_SUMMARY.csv,7,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,0.0078073934200013,0.0036372600060373,0.011882192959511,0.0003435345412354,27538,GBM,stratified_5fold,EARLY_t28_VLEonly,leak_breadth_SUMMARY.csv,13,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,0.0058464667005592,0.0024616605433652,0.0092923141169559,0.001816197938806,27538,LR,stratified_5fold,EARLY_t28_withAssess,leak_breadth_SUMMARY.csv,19,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,0.0041397341854891,0.0009784851285493,0.0073425246088637,0.0255459430404641,27538,GBM,stratified_5fold,EARLY_t28_withAssess,leak_breadth_SUMMARY.csv,25,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,0.0137621597164617,0.0097077780004424,0.0178102979309474,5.752935610701057e-12,26522,LR,stratified_5fold,EARLY_t56_VLEonly,leak_breadth_SUMMARY.csv,31,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,0.0165145916597541,0.0125182963984321,0.0206539542782856,3.667696231143056e-15,26522,GBM,stratified_5fold,EARLY_t56_VLEonly,leak_breadth_SUMMARY.csv,37,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,0.0041097956413543,0.0013931442541297,0.0067031461012833,0.0156505591571345,26522,LR,stratified_5fold,EARLY_t56_withAssess,leak_breadth_SUMMARY.csv,43,True
+P07,EARLY base_course -> full21_ctr accuracy difference; BH over 12,-0.0001131136415051,-0.0031221936533497,0.0030237747086977,0.9615263211218,26522,GBM,stratified_5fold,EARLY_t56_withAssess,leak_breadth_SUMMARY.csv,49,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,0.0048296898830707,0.0013118707560811,0.0084158137235876,0.0096123611726988,27538,LR,stratified_5fold,EARLY_t28_VLEonly,leak_breadth_SUMMARY.csv,4,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,0.0084610356598154,0.0045331409702017,0.0122988213081163,7.572930400718177e-05,27538,GBM,stratified_5fold,EARLY_t28_VLEonly,leak_breadth_SUMMARY.csv,10,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,3.63134577674451e-05,-0.0027918378936655,0.0027337526046805,1.0,27538,LR,stratified_5fold,EARLY_t28_withAssess,leak_breadth_SUMMARY.csv,16,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,0.0051928244607452,0.0017121510538073,0.0084610362827494,0.0039481981748444,27538,GBM,stratified_5fold,EARLY_t28_withAssess,leak_breadth_SUMMARY.csv,22,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,0.0104818641128119,0.0068119121940742,0.014027203156862,2.9224455018407535e-08,26522,LR,stratified_5fold,EARLY_t56_VLEonly,leak_breadth_SUMMARY.csv,28,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,0.0137244551692934,0.0095541532412342,0.0175742625074225,3.271850100117517e-11,26522,GBM,stratified_5fold,EARLY_t56_VLEonly,leak_breadth_SUMMARY.csv,34,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,0.0026770228489556,0.0002269701186809,0.0051217740804253,0.076134296498024,26522,LR,stratified_5fold,EARLY_t56_withAssess,leak_breadth_SUMMARY.csv,40,True
+P08,EARLY breadth2_ctr -> full21_ctr accuracy difference; BH over 12,0.0039966819998492,0.000793132754847,0.0067960111244054,0.0379595078678773,26522,GBM,stratified_5fold,EARLY_t56_withAssess,leak_breadth_SUMMARY.csv,46,True
+P09,"Primary rule met (1/0): base_course -> full21_ctr, CI excludes 0 same direction LR and GBM AND BH p < 0.05 (both)",1.0,,,,27538,LR+GBM,stratified_5fold,EARLY_t28_VLEonly,leak_breadth_SUMMARY.csv,7,True
+P09,"Primary rule met (1/0): base_course -> full21_ctr, CI excludes 0 same direction LR and GBM AND BH p < 0.05 (both)",1.0,,,,27538,LR+GBM,stratified_5fold,EARLY_t28_withAssess,leak_breadth_SUMMARY.csv,19,True
+P09,"Primary rule met (1/0): base_course -> full21_ctr, CI excludes 0 same direction LR and GBM AND BH p < 0.05 (both)",1.0,,,,26522,LR+GBM,stratified_5fold,EARLY_t56_VLEonly,leak_breadth_SUMMARY.csv,31,True
+P09,"Primary rule met (1/0): base_course -> full21_ctr, CI excludes 0 same direction LR and GBM AND BH p < 0.05 (both)",0.0,,,,26522,LR+GBM,stratified_5fold,EARLY_t56_withAssess,leak_breadth_SUMMARY.csv,43,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,-0.0007988960708839,-0.0026958984924266,0.0010859122558823,0.5801611169157396,27538,LR,stratified_5fold,EARLY_t28_VLEonly,p2_1_zbase_comparisons_bh.csv,6,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0107850969569321,0.0069834949252816,0.0144646189313877,8.730081940346028e-08,27538,LR,stratified_5fold,EARLY_t28_VLEonly,p2_1_zbase_comparisons_bh.csv,7,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,-7.26269155348902e-05,-0.0028657440008908,0.0028298615591901,0.98046566436818,27538,GBM,stratified_5fold,EARLY_t28_VLEonly,p2_1_zbase_comparisons_bh.csv,8,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0075168857578618,0.003708088425669,0.0112521569758298,0.000219855618332,27538,GBM,stratified_5fold,EARLY_t28_VLEonly,p2_1_zbase_comparisons_bh.csv,9,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,0.0141622485293049,0.0108865163990785,0.0173728381143203,1.1553255277042485e-17,27538,LR,stratified_5fold,EARLY_t28_withAssess,p2_1_zbase_comparisons_bh.csv,10,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0061732878204663,0.002980992239329,0.0093825090759708,0.0002985757354421,27538,LR,stratified_5fold,EARLY_t28_withAssess,p2_1_zbase_comparisons_bh.csv,11,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,0.0035587188612099,0.0007236989986414,0.0065561618638435,0.022145727817162,27538,GBM,stratified_5fold,EARLY_t28_withAssess,p2_1_zbase_comparisons_bh.csv,12,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,-0.0006899556975814,-0.0036619586380415,0.0022952718507109,0.6755050898046236,27538,GBM,stratified_5fold,EARLY_t28_withAssess,p2_1_zbase_comparisons_bh.csv,13,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,-0.0019229319055877,-0.0036878084029785,-0.0002248398006566,0.0648421119087742,26522,LR,stratified_5fold,EARLY_t56_VLEonly,p2_1_zbase_comparisons_bh.csv,14,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0162506598295754,0.0118599479075762,0.0200033396338625,1.835972580073213e-15,26522,LR,stratified_5fold,EARLY_t56_VLEonly,p2_1_zbase_comparisons_bh.csv,15,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,-0.0004524545660207,-0.0032139454075445,0.0026053027054616,0.7734361798280791,26522,GBM,stratified_5fold,EARLY_t56_VLEonly,p2_1_zbase_comparisons_bh.csv,16,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0136113415277883,0.0098397896307307,0.0175366467991306,4.3007758925178186e-11,26522,GBM,stratified_5fold,EARLY_t56_VLEonly,p2_1_zbase_comparisons_bh.csv,17,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,0.00116884096222,-0.0014346527663492,0.003789577955346,0.3985856398159152,26522,LR,stratified_5fold,EARLY_t56_withAssess,p2_1_zbase_comparisons_bh.csv,18,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.005052409320564,0.0022977140590053,0.0076577928392318,0.001107627765568,26522,LR,stratified_5fold,EARLY_t56_withAssess,p2_1_zbase_comparisons_bh.csv,19,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,-0.0014327727923987,-0.0041321309229544,0.0013944720304291,0.3985856398159152,26522,GBM,stratified_5fold,EARLY_t56_withAssess,p2_1_zbase_comparisons_bh.csv,20,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0031671819621446,0.0007150329912695,0.0056861722843721,0.0379808688528434,26522,GBM,stratified_5fold,EARLY_t56_withAssess,p2_1_zbase_comparisons_bh.csv,21,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,0.0025999223903764,0.0005439003531712,0.0044626660298481,0.0233558359702754,25770,LR,stratified_5fold,FULL,p2_1_zbase_comparisons_bh.csv,22,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0018626309662398,0.0006193289842297,0.0032979771547651,0.0233558359702754,25770,LR,stratified_5fold,FULL,p2_1_zbase_comparisons_bh.csv,23,True
+P10,Course-normalised base: base_course -> base_course_z accuracy difference; BH over 4,0.0010865347303065,-0.000969150018942,0.0031001836053848,0.3149758489520279,25770,GBM,stratified_5fold,FULL,p2_1_zbase_comparisons_bh.csv,24,True
+P10,Course-normalised base: base_course_z -> base_course_z_full21 accuracy difference; BH over 4,0.0019790454016298,0.0001932262444635,0.0039573345037351,0.059747061220893,25770,GBM,stratified_5fold,FULL,p2_1_zbase_comparisons_bh.csv,25,True
+P11,Leave-one-module-out base -> base_ctr accuracy difference; BH over 1,-0.0098564221963522,-0.0126706612297118,-0.006926113771611,7.47688336576452e-11,25770,LR,leave_one_module_out,FULL,ml_2_lomo_comparisons_bh.csv,7,True
+P11,Leave-one-module-out base -> base_ctr accuracy difference; BH over 1,-0.0113310050446255,-0.0149759804826374,-0.0076702673861068,8.7341819494868e-09,25770,GBM,leave_one_module_out,FULL,ml_2_lomo_comparisons_bh.csv,8,True
+P11,Leave-one-module-out base -> base_ctr accuracy difference; BH over 1,0.0273803471566562,0.0227409783001941,0.0319045160219921,1.7381388317390213e-29,27538,LR,leave_one_module_out,EARLY_t28,ml_2_lomo_comparisons_bh.csv,9,True
+P11,Leave-one-module-out base -> base_ctr accuracy difference; BH over 1,0.0127460236763744,0.0081157268475565,0.0173917952876115,2.9850170777814495e-07,27538,GBM,leave_one_module_out,EARLY_t28,ml_2_lomo_comparisons_bh.csv,10,True
+P11,Leave-one-module-out base -> base_ctr accuracy difference; BH over 1,0.0157605007163864,0.0109058517324971,0.0203518122986759,2.609165306751693e-11,26522,LR,leave_one_module_out,EARLY_t56,ml_2_lomo_comparisons_bh.csv,11,True
+P11,Leave-one-module-out base -> base_ctr accuracy difference; BH over 1,0.0098408868109494,0.0059701889576465,0.0141091213089651,6.7679930540267695e-06,26522,GBM,leave_one_module_out,EARLY_t56,ml_2_lomo_comparisons_bh.csv,12,True
+P12,Per-module (AAA) base_course -> base_course_ctr accuracy difference; BH over 28,-0.0013927576601671,-0.0166222323248279,0.0124485638096113,1.0,718,LR,stratified_5fold_within_module,EARLY_t28_AAA,ml_3_module_comparisons_bh.csv,9,True
+P12,Per-module (AAA) base_course -> base_course_ctr accuracy difference; BH over 28,0.0208913649025069,-0.0097371057315424,0.0518225452873997,0.2517898447773347,718,GBM,stratified_5fold_within_module,EARLY_t28_AAA,ml_3_module_comparisons_bh.csv,10,True
+P12,Per-module (BBB) base_course -> base_course_ctr accuracy difference; BH over 28,0.009014609884986,0.0013908163695232,0.0165111899921941,0.044568015936612,6434,LR,stratified_5fold_within_module,EARLY_t28_BBB,ml_3_module_comparisons_bh.csv,11,True
+P12,Per-module (BBB) base_course -> base_course_ctr accuracy difference; BH over 28,0.0040410320174074,-0.0062295846943537,0.0150352666495482,0.4943195937472315,6434,GBM,stratified_5fold_within_module,EARLY_t28_BBB,ml_3_module_comparisons_bh.csv,12,True
+P12,Per-module (CCC) base_course -> base_course_ctr accuracy difference; BH over 28,0.0127877237851662,0.0005604689461465,0.0245752856251429,0.0677352593848287,3519,LR,stratified_5fold_within_module,EARLY_t28_CCC,ml_3_module_comparisons_bh.csv,13,True
+P12,Per-module (CCC) base_course -> base_course_ctr accuracy difference; BH over 28,0.0125035521454958,-0.0037183702664954,0.0289742785697792,0.1989116330315875,3519,GBM,stratified_5fold_within_module,EARLY_t28_CCC,ml_3_module_comparisons_bh.csv,14,True
+P12,Per-module (DDD) base_course -> base_course_ctr accuracy difference; BH over 28,0.0242240726722179,0.0143797782937818,0.0332413081190359,1.7253432336035447e-05,5284,LR,stratified_5fold_within_module,EARLY_t28_DDD,ml_3_module_comparisons_bh.csv,15,True
+P12,Per-module (DDD) base_course -> base_course_ctr accuracy difference; BH over 28,0.0155185465556396,0.0028403146951531,0.027811233665272,0.0376756105947978,5284,GBM,stratified_5fold_within_module,EARLY_t28_DDD,ml_3_module_comparisons_bh.csv,16,True
+P12,Per-module (EEE) base_course -> base_course_ctr accuracy difference; BH over 28,0.0117508813160986,0.0,0.0235573573456873,0.0887855700020705,2553,LR,stratified_5fold_within_module,EARLY_t28_EEE,ml_3_module_comparisons_bh.csv,17,True
+P12,Per-module (EEE) base_course -> base_course_ctr accuracy difference; BH over 28,0.008617312965139,-0.0066588979773012,0.0247167891403955,0.3395764461810413,2553,GBM,stratified_5fold_within_module,EARLY_t28_EEE,ml_3_module_comparisons_bh.csv,18,True
+P12,Per-module (FFF) base_course -> base_course_ctr accuracy difference; BH over 28,0.0177460943424845,0.0098269646157735,0.0258720022123593,0.0002080763519732,6593,LR,stratified_5fold_within_module,EARLY_t28_FFF,ml_3_module_comparisons_bh.csv,19,True
+P12,Per-module (FFF) base_course -> base_course_ctr accuracy difference; BH over 28,0.0192628545426967,0.0083338620345529,0.0290075710401219,0.0023123064033657,6593,GBM,stratified_5fold_within_module,EARLY_t28_FFF,ml_3_module_comparisons_bh.csv,20,True
+P12,Per-module (GGG) base_course -> base_course_ctr accuracy difference; BH over 28,-0.0045137464095199,-0.0143891351608668,0.0053279234636608,0.4542978197190061,2437,LR,stratified_5fold_within_module,EARLY_t28_GGG,ml_3_module_comparisons_bh.csv,21,True
+P12,Per-module (GGG) base_course -> base_course_ctr accuracy difference; BH over 28,0.0151826015592941,-0.0028700581304418,0.0319777908844662,0.1557840668792638,2437,GBM,stratified_5fold_within_module,EARLY_t28_GGG,ml_3_module_comparisons_bh.csv,22,True
+P12,Per-module (AAA) base_course -> base_course_ctr accuracy difference; BH over 28,0.0127298444130127,-0.007052186177715,0.0307294890579578,0.295280893771631,707,LR,stratified_5fold_within_module,EARLY_t56_AAA,ml_3_module_comparisons_bh.csv,23,True
+P12,Per-module (AAA) base_course -> base_course_ctr accuracy difference; BH over 28,0.0381895332390382,0.0070708941881347,0.0696104676573426,0.0376756105947978,707,GBM,stratified_5fold_within_module,EARLY_t56_AAA,ml_3_module_comparisons_bh.csv,24,True
+P12,Per-module (BBB) base_course -> base_course_ctr accuracy difference; BH over 28,0.0236610711430854,0.0143582568801713,0.0331042424012673,1.7253432336035447e-05,6255,LR,stratified_5fold_within_module,EARLY_t56_BBB,ml_3_module_comparisons_bh.csv,25,True
+P12,Per-module (BBB) base_course -> base_course_ctr accuracy difference; BH over 28,0.0262190247801757,0.0154666213319681,0.0366477974437289,2.5734298706111666e-05,6255,GBM,stratified_5fold_within_module,EARLY_t56_BBB,ml_3_module_comparisons_bh.csv,26,True
+P12,Per-module (CCC) base_course -> base_course_ctr accuracy difference; BH over 28,0.0120407533189256,-0.0003161391134644,0.0244366446462443,0.0887855700020705,3239,LR,stratified_5fold_within_module,EARLY_t56_CCC,ml_3_module_comparisons_bh.csv,27,True
+P12,Per-module (CCC) base_course -> base_course_ctr accuracy difference; BH over 28,0.0234640321086755,0.0058442410754793,0.041404077849861,0.0195965058079827,3239,GBM,stratified_5fold_within_module,EARLY_t56_CCC,ml_3_module_comparisons_bh.csv,28,True
+P12,Per-module (DDD) base_course -> base_course_ctr accuracy difference; BH over 28,0.0136606612551969,0.00416563392221,0.0229313654607484,0.0146480721049089,5051,LR,stratified_5fold_within_module,EARLY_t56_DDD,ml_3_module_comparisons_bh.csv,29,True
+P12,Per-module (DDD) base_course -> base_course_ctr accuracy difference; BH over 28,0.0197980597901404,0.008115272466747,0.0328846364633956,0.0054843437567805,5051,GBM,stratified_5fold_within_module,EARLY_t56_DDD,ml_3_module_comparisons_bh.csv,30,True
+P12,Per-module (EEE) base_course -> base_course_ctr accuracy difference; BH over 28,0.0208835341365462,0.0103871514095326,0.0318607140315463,0.0012426413705567,2490,LR,stratified_5fold_within_module,EARLY_t56_EEE,ml_3_module_comparisons_bh.csv,31,True
+P12,Per-module (EEE) base_course -> base_course_ctr accuracy difference; BH over 28,0.0176706827309236,0.0028224670147005,0.0320035355564482,0.049625599628838,2490,GBM,stratified_5fold_within_module,EARLY_t56_EEE,ml_3_module_comparisons_bh.csv,32,True
+P12,Per-module (FFF) base_course -> base_course_ctr accuracy difference; BH over 28,0.0153773732935822,0.0078664281702464,0.0227310137793115,0.0005459246043048,6373,LR,stratified_5fold_within_module,EARLY_t56_FFF,ml_3_module_comparisons_bh.csv,33,True
+P12,Per-module (FFF) base_course -> base_course_ctr accuracy difference; BH over 28,0.0291856268633297,0.018995382229467,0.0391466911179708,1.6894927022109411e-06,6373,GBM,stratified_5fold_within_module,EARLY_t56_FFF,ml_3_module_comparisons_bh.csv,34,True
+P12,Per-module (GGG) base_course -> base_course_ctr accuracy difference; BH over 28,0.0112172829248026,-0.0020909806079884,0.0237104825291181,0.1391848188860849,2407,LR,stratified_5fold_within_module,EARLY_t56_GGG,ml_3_module_comparisons_bh.csv,35,True
+P12,Per-module (GGG) base_course -> base_course_ctr accuracy difference; BH over 28,0.0195263813876194,-1.0386373078518605e-05,0.0382377389858685,0.0810422111735947,2407,GBM,stratified_5fold_within_module,EARLY_t56_GGG,ml_3_module_comparisons_bh.csv,36,True
+P13,Random effects over 7 modules: DL pooled delta-Accuracy (95% normal CI),0.0103632191160727,0.002946768175349,0.0177796700567964,,7,LR,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,5,True
+P13,Random effects over 7 modules: I2 (%),73.47816399429318,,,,7,LR,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,5,True
+P13,Random effects over 7 modules: tau2,7.17072962001349e-05,,,,7,LR,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,5,True
+P13,"Random effects over 7 modules: DL pooled delta-Accuracy with Hartung-Knapp CI (t, df 6)",0.0103632191160727,0.0010325857600774,0.019693852472068,,7,LR,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,5,True
+P13,Random effects over 7 modules: DL pooled delta-Accuracy (95% normal CI),0.0125846801046694,0.0072338515120515,0.0179355086972874,,7,GBM,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,6,True
+P13,Random effects over 7 modules: I2 (%),0.0,,,,7,GBM,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,6,True
+P13,Random effects over 7 modules: tau2,0.0,,,,7,GBM,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,6,True
+P13,"Random effects over 7 modules: DL pooled delta-Accuracy with Hartung-Knapp CI (t, df 6)",0.0125846801046694,0.0066768481436612,0.0184925120656777,,7,GBM,stratified_5fold_within_module,EARLY_t28,ml_3_random_effects.csv,6,True
+P13,Random effects over 7 modules: DL pooled delta-Accuracy (95% normal CI),0.0163962175065767,0.012400446942283,0.0203919880708704,,7,LR,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,7,True
+P13,Random effects over 7 modules: I2 (%),0.0,,,,7,LR,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,7,True
+P13,Random effects over 7 modules: tau2,0.0,,,,7,LR,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,7,True
+P13,"Random effects over 7 modules: DL pooled delta-Accuracy with Hartung-Knapp CI (t, df 6)",0.0163962175065767,0.0120943321295921,0.0206981028835613,,7,LR,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,7,True
+P13,Random effects over 7 modules: DL pooled delta-Accuracy (95% normal CI),0.0243456859448615,0.0190875227177808,0.0296038491719421,,7,GBM,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,8,True
+P13,Random effects over 7 modules: I2 (%),0.0,,,,7,GBM,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,8,True
+P13,Random effects over 7 modules: tau2,0.0,,,,7,GBM,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,8,True
+P13,"Random effects over 7 modules: DL pooled delta-Accuracy with Hartung-Knapp CI (t, df 6)",0.0243456859448615,0.0194670254835367,0.0292243464061862,,7,GBM,stratified_5fold_within_module,EARLY_t56,ml_3_random_effects.csv,8,True
+P14,"Gender FNR gap F minus M, model B; student-level bootstrap CI",0.0458798064680417,0.0285963311344312,0.0633361848870606,,25820,LR,stratified_5fold,FULL_model_rowset,robustness_fairness_gender_fnr.csv,2,True
+P14,"Gender FNR gap F minus M, model E; student-level bootstrap CI",0.018114485066857,0.0022727957203318,0.0333353786569702,,25770,LR,stratified_5fold,FULL_model_rowset,robustness_fairness_gender_fnr.csv,3,True
+P14,"Gender FNR gap F minus M, model D; student-level bootstrap CI",0.0358176244010848,0.0209347671281047,0.0510674585246009,,25770,LR,stratified_5fold,FULL_model_rowset,robustness_fairness_gender_fnr.csv,4,True
+P14,"Gender FNR gap F minus M, model B; student-level bootstrap CI",0.0571199388846447,0.0387542526880742,0.0745006331809968,,25820,GBM,stratified_5fold,FULL_model_rowset,robustness_fairness_gender_fnr.csv,5,True
+P14,"Gender FNR gap F minus M, model E; student-level bootstrap CI",0.0395042741433879,0.0233310285933294,0.0556567177684773,,25770,GBM,stratified_5fold,FULL_model_rowset,robustness_fairness_gender_fnr.csv,6,True
+P14,"Gender FNR gap F minus M, model D; student-level bootstrap CI",0.0377443449790813,0.0235373667408075,0.0514990314954312,,25770,GBM,stratified_5fold,FULL_model_rowset,robustness_fairness_gender_fnr.csv,7,True

@@ -1,0 +1,4 @@
+# Independent re-implementation: leak_reimpl_early_features.py.
+cutoff_days,n_rows_pipeline,n_rows_reimpl,same_row_count,same_row_order,n_keys_only_in_pipeline,n_keys_only_in_reimpl,pipeline_interest_columns_equal_reimpl
+28,27538,27538,True,True,0,0,True
+56,26522,26522,True,True,0,0,True

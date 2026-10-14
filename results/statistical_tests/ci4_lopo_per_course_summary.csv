@@ -1,0 +1,4 @@
+# Spearman over n = 22 course presentations (spearman_n).
+family,n_courses,n_rows_total,n_positive_diff,n_zero_diff,n_negative_diff,mean_diff_unweighted,sd_diff_unweighted_ddof1,pooled_diff_D_minus_E,spearman_rho_diff_vs_passrate,spearman_p,spearman_n
+LR,22,25770,16,1,5,0.011510217269621622,0.034836369022089926,0.004074505238649606,0.20722755505364204,0.35478551222580323,22
+GBM,22,25770,18,2,2,0.012853915582831181,0.044466180763247924,0.008963911525029067,-0.19260096786101236,0.390490434960724,22

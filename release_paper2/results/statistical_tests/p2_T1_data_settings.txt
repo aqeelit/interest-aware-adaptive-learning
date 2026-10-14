@@ -1,0 +1,10 @@
+T1. Settings, N and dropped rows
+Source: p2_1_zbase_metrics_summary.csv; FULL drop breakdown: p2_5_dropped_rows_breakdown.csv.
+Base columns (B+C): B = mean_score, weighted_mean_score, n_assessments, score_std;
+C = total_clicks, active_days, mean_clicks_per_active_day (EARLY: computed on data up to day t).
+setting|N_source|N|dropped|dropped_reason|base
+EARLY_t28_VLEonly|32593|27538|5055|risk set: unregistered by t|C
+EARLY_t28_withAssess|32593|27538|5055|risk set: unregistered by t|B+C
+EARLY_t56_VLEonly|32593|26522|6071|risk set: unregistered by t|C
+EARLY_t56_withAssess|32593|26522|6071|risk set: unregistered by t|B+C
+FULL|32593|25770|6823|no complete B/C/interest set|B+C

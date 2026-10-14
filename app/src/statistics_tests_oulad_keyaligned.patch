@@ -1,0 +1,75 @@
+--- a/app/src/statistics_tests_oulad.py
++++ b/app/src/statistics_tests_oulad.py
+@@ -21,6 +21,14 @@
+      correction (+0.5 to both discordant cells) is applied only when either
+      discordant count is zero, to avoid division by zero / log(0); such rows are
+      flagged in a boolean column.
++
++Key-alignment fix (2026-10-13): row_index in oulad_fold_predictions.csv is a
++POSITION inside each model's own training frame (oulad_target.parquet for the
++majority baseline; target inner-joined to that model's feature file for every
++other model). Those frames have different row sets (e.g. B: 25,820 rows, C:
++29,228, D/E: 25,770), so the same row_index can denote different students in
++different models. Predictions are therefore mapped back to
++(id_student, code_module, code_presentation) and pairs are matched on that key.
+ """
+ import os
+ import itertools
+@@ -30,6 +38,31 @@
+ from statsmodels.stats.contingency_tables import mcnemar
+ from statsmodels.stats.multitest import multipletests
+ from utils import RESULTS_STATS, ensure_dirs
++from train_evaluate_oulad import KEY, load_target, load_feature_set
++
++BASELINE_MODEL = "A_majority_baseline"
++
++
++def attach_keys(df: pd.DataFrame) -> pd.DataFrame:
++    """Replaces each model's positional row_index with the KEY columns of the exact
++    frame train_evaluate_oulad.py indexed into, and checks y_true against it."""
++    target = load_target()
++    parts = []
++    for model, g in df.groupby("model"):
++        if model == BASELINE_MODEL:
++            frame = target
++        else:
++            feats = load_feature_set(model)
++            if feats is None:
++                raise FileNotFoundError(f"Feature set for model {model} not found.")
++            frame = target.merge(feats, on=KEY, how="inner")
++        idx = g["row_index"].to_numpy()
++        keys = frame.iloc[idx][KEY + ["target"]].reset_index(drop=True)
++        g = g.reset_index(drop=True)
++        if not (keys["target"].to_numpy() == g["y_true"].to_numpy()).all():
++            raise ValueError(f"y_true does not match the target at the mapped keys for {model}.")
++        parts.append(pd.concat([keys[KEY], g.drop(columns=["row_index"])], axis=1))
++    return pd.concat(parts, ignore_index=True)
+ 
+ 
+ def load_predictions() -> pd.DataFrame:
+@@ -38,18 +71,19 @@
+         raise FileNotFoundError(
+             f"{path} not found — run train_evaluate_oulad.py first."
+         )
+-    return pd.read_csv(path)
++    return attach_keys(pd.read_csv(path))
+ 
+ 
+ def pairwise_mcnemar(df: pd.DataFrame, model_a: str, model_b: str) -> dict:
+-    """Aligns predictions on row_index (same held-out sample across models where
+-    both were evaluated) and runs McNemar's test on correct/incorrect agreement.
++    """Aligns predictions on KEY (id_student, code_module, code_presentation) —
++    the same student-course enrolment in both models — and runs McNemar's test on
++    correct/incorrect agreement.
+     """
+-    a = df[df["model"] == model_a][["row_index", "y_true", "y_pred"]].rename(
++    a = df[df["model"] == model_a][KEY + ["y_true", "y_pred"]].rename(
+         columns={"y_pred": "pred_a"})
+-    b = df[df["model"] == model_b][["row_index", "y_true", "y_pred"]].rename(
++    b = df[df["model"] == model_b][KEY + ["y_true", "y_pred"]].rename(
+         columns={"y_pred": "pred_b"})
+-    merged = a.merge(b, on=["row_index", "y_true"], how="inner")
++    merged = a.merge(b, on=KEY + ["y_true"], how="inner")
+     if len(merged) == 0:
+         return {"model_a": model_a, "model_b": model_b, "n_common": 0,
+                 "statistic": None, "p_value": None, "note": "no overlapping evaluated rows"}
